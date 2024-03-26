@@ -1,3 +1,6 @@
+Ravignir's rekmod modified by me, many of the things here are from rekmod, but I've changed some of them to my liking.
+Rest of the credits and readme are made by Ravignir
+
 Modified by Ravignir based on Civ5 Expansion mod by Red11.
 Most of the art by Red11, LynxRo, GeneralWadaling, Ravignir, Firelord.
 Contains stuff from mods:
