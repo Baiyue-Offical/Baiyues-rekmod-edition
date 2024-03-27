@@ -1,6 +1,23 @@
 [
     // Religious buildings
     {
+        "name": "Villa",
+        "cost": 200,
+        "hurryCostModifier": 25,
+	"happiness": 3,
+        "maintenance": 1,
+        "Must be next to [Grassland]",
+        "requiredTech": "Acoustics"
+    },
+    {
+        "name": "Almshouse",
+        "cost": 140,
+        "hurryCostModifier": 25,
+	"happiness": 2,
+        "maintenance": 2,
+        "requiredTech": "Civil Service"
+    },
+    {
         "name": "Seaside resort",
         "cost": 75,
         "hurryCostModifier": 25,
@@ -12,7 +29,7 @@
     },
     {
         "name": "Park",
-        "cost": 100,
+        "cost": 120,
         "hurryCostModifier": 25,
 	"happiness": 2,
         "maintenance": 1,
