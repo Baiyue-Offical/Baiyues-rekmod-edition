@@ -1,6 +1,35 @@
 [
     // Religious buildings
     {
+        "name": "Seaside resort",
+        "cost": 75,
+        "hurryCostModifier": 25,
+	"happiness": 2,
+        "uniques": [
+            "Must be next to [Coast]"
+        ],
+        "requiredTech": "Sailing"
+    },
+    {
+        "name": "Park",
+        "cost": 100,
+        "hurryCostModifier": 25,
+	"happiness": 2,
+        "maintenance": 1,
+        "requiredTech": "Philosophy"
+    },
+    {
+        "name": "Bakery",
+        "cost": 100,
+        "hurryCostModifier": 25,
+	"happiness": 2,
+	"food": 2,
+	"gold": 2,
+        "maintenance": 2,
+        "requiredBuilding": "Granary",
+        "requiredTech": "Masonry"
+    },
+    {
         "name": "Great library",
         "replaces": "Library",
         "uniqueTo": "Greece",
@@ -91,7 +120,8 @@
         "replaces": "Courthouse",
 	"gold": 3
         "happiness": 2,
-        "hurryCostModifier": 50,
+         "maintenance": 4,
+        "hurryCostModifier": 25,
         "uniques": [
             "Remove extra unhappiness from annexed cities"
         ],
