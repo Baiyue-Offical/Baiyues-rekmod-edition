@@ -6,7 +6,7 @@
         "hurryCostModifier": 25,
 	"happiness": 3,
         "maintenance": 1,
-        "Must be next to [Grassland]",
+        "uniques": ["Must be next to [Grassland]"],
         "requiredTech": "Acoustics"
     },
     {
