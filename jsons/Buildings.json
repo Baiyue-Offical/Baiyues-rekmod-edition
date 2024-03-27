@@ -27,7 +27,7 @@
         ],
         "requiredTech": "Sailing"
     },
-    {
+/*    {
         "name": "Park",
         "cost": 120,
         "hurryCostModifier": 25,
@@ -45,7 +45,7 @@
         "maintenance": 2,
         "requiredBuilding": "Granary",
         "requiredTech": "Masonry"
-    },
+    }, */
     {
         "name": "Great library",
         "replaces": "Library",
