@@ -1,4 +1,5 @@
 [
+	// bakery+theology park and refri resort? can change almshouse to unbuildable
     // Religious buildings
     {
         "name": "Villa",
@@ -9,25 +10,25 @@
         "uniques": ["Must be next to [Grassland]"],
         "requiredTech": "Acoustics"
     },
-    {
+/*    {
         "name": "Almshouse",
         "cost": 120,
         "hurryCostModifier": 25,
 	"happiness": 2,
         "maintenance": 2,
         "requiredTech": "Civil Service"
-    },
+    }, */
     {
         "name": "Seaside resort",
-        "cost": 50,
+        "cost": 360,
         "hurryCostModifier": 25,
 	"happiness": 2,
         "uniques": [
             "Must be next to [Coast]"
         ],
-        "requiredTech": "Sailing"
+        "requiredTech": "Refrigeration"
     },
-/*    {
+    {
         "name": "Park",
         "cost": 120,
         "hurryCostModifier": 25,
@@ -45,7 +46,7 @@
         "maintenance": 2,
         "requiredBuilding": "Granary",
         "requiredTech": "Masonry"
-    }, */
+    }, 
     {
         "name": "Great library",
         "replaces": "Library",
