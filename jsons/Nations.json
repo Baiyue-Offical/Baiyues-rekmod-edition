@@ -428,5 +428,36 @@
             "Matuku","O'ua","Tungua","Vaipoa","Ovaka","Salega","Talau","Popua","Kotu","Tofua",
             "Kao","Lotofoa","Lofanga","Uiha","Fakahiku","Alofi","Ha'afeva"
         ]
-    } // Cuba, sealand, italy, antaratica 
+    },  
+   {
+        "name": "Greater Germany",
+        "leaderName": "Germania",
+        "adjective": ["German"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "I'd win.",
+        "startIntroPart2": "I'd win",
+        "declaringWar": "You will die.",
+        "attacked": "You will die.",
+        "defeated": "Impossible.",
+        "introduction": "Guten Tag.",
+        "neutralHello": "Hi.",
+        "hateHello": "Why are you here",
+        "tradeRequest": "I offer this.",
+        "outerColor": [130,130,130],
+        "innerColor": [50,50,50],
+        "uniqueName": "Combined German Spirit",
+        "uniques": ["[+1] Movement <for [Land] units>","[-50]% maintenance costs <for [Land] units>","[50]% XP gained from combat <for [Land] units>",
+	    "[+3 Science] from every [Windmill]","[+3 Science] from every [Workshop]","[+3 Science] from every [Factory]",
+	    "[+25]% Production towards any buildings that already exist in the Capital","[+1 Production] from every [Plantation]","[+1 Gold] from every [Strategic resource]",
+	    "[+1 Production, +1 Faith] from every [Water resource]","[+1 Food, +1 Production] from every [Tundra]","[Gold] cost of purchasing items in cities [-20]%"], 
+        "cities": [
+            "Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
+            "Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+            "Munster","Rostok","Chemnitz","Braunschweig","Halle","Monchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+            "Erfurt","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Potsdam","Solingen","Osnabruck","Ludwingshafen",
+            "Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gottingen","Wolfsburg",
+            "Koblenz","Hildesheim","Erlangen"
+        ]
+    }
 ]

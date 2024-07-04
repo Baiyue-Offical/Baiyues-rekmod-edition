@@ -565,7 +565,7 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+1 Gold, +1 Food] from every [Coast]",
+                    "[+1 Gold, +1 Production] from every [Coast]",
                     "[+1 Gold, +1 Production] from every [Ocean]",
                     "Provides [1] [Policies]"
                 ],

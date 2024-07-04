@@ -1,8 +1,118 @@
 [
     // Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
-/* armored car, armored vehicle, IFV
-mortar,, howitzer, self propelled ; missile launcher
-wooden fort, stone fort, star fort, bunker ; trench, fort ; AA fort, missile fort ; AA missile fort ; anti naval missile fort, laser fort*/
+   {
+        "name": "Thracian brave",
+        "replaces": "Spearman",
+        "uniqueTo": "Bulgaria",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 10,
+        "rangedStrength": 15,
+        "cost": 56,
+        "requiredTech": "Bronze Working",
+        "obsoleteTech": "Civil Service",
+        "upgradesTo": "Pikeman",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Fregatte",
+        "replaces": "Frigate",
+        "uniqueTo": "Greater Germany",
+        "unitType": "Ranged Water",
+        "movement": 5,
+        "strength": 28,
+        "rangedStrength": 32,
+        "cost": 185,
+        "requiredResource": "Iron",
+        "requiredTech": "Navigation",
+        "obsoleteTech": "Electronics",
+        "upgradesTo": "Battleship",
+        "hurryCostModifier": 20,
+        "attackSound": "cannon"
+    },
+   {
+        "name": "Gadrauth",
+        "replaces": "Swordsman",
+        "uniqueTo": "Greater Germany",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Imperial Knight",
+        "replaces": "Knight",
+        "uniqueTo": "Greater Germany",
+        "unitType": "Mounted",
+        "movement": 5,
+        "strength": 24,
+        "cost": 120,
+        "requiredTech": "Chivalry",
+        "obsoleteTech": "Military Science",
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+	       
+        ],
+        "promotions": ["Charge","Quick Study","Great Generals II"],
+        "attackSound": "horse"
+    },
+    {
+        "name": "Arbalest",
+        "replaces": "Crossbowman",
+        "uniqueTo": "Greater Germany",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 15,
+        "rangedStrength": 21,
+        "cost": 120,
+        "requiredTech": "Machinery",
+        "upgradesTo": "Gatling Gun",
+        "obsoleteTech": "Industrialization",
+        "promotions": ["Cover I"],
+        "attackSound": "crossbow"
+    },
+   {
+        "name": "Landeswehr",
+        "replaces": "Rifleman",
+        "uniqueTo": "Greater Germany",
+        "unitType": "Gunpowder",
+        "movement": 4,
+        "strength": 34,
+        "cost": 225,
+        "requiredTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
+        "upgradesTo": "Great War Infantry",
+        "promotions": ["Blitz","Quick Study","March"],
+        "attackSound": "shot"
+    },
+    {
+        "name": "Leopard",
+        "replaces": "Tank",
+        "uniqueTo": "Greater Germany",
+        "unitType": "Armored",
+        "replaces": "Tank",
+        "movement": 6,
+        "strength": 80,
+        "cost": 450,
+        "requiredTech": "Combined Arms",
+        "requiredResource": "Oil",
+        "upgradesTo": "Modern Armor",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>"
+        ],
+        "attackSound": "tankshot"
+    },
     /* Ancient Era */
     {
         "name": "Dromon",
@@ -495,6 +605,19 @@ wooden fort, stone fort, star fort, bunker ; trench, fort ; AA fort, missile for
         "attackSound": "arrow"
     },
     {
+        "name": "Javelineer",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 9,
+        "rangedStrength": 9,
+        "range": 1,
+        "cost": 56,
+        "requiredTech": "Bronze Working",
+        "upgradesTo": "Skirmisher",
+        "obsoleteTech": "Civil Service",
+        "attackSound": "arrow"
+    },
+    {
         "name": "Spearman",
         "unitType": "Sword",
         "movement": 2,
@@ -700,6 +823,26 @@ wooden fort, stone fort, star fort, bunker ; trench, fort ; AA fort, missile for
         ],
         "hurryCostModifier": 20,
         "attackSound": "throw"
+    },
+    {
+        "name": "Siege Ram",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 8,
+        "cost": 75,
+        "requiredTech": "Construction",
+        "obsoleteTech": "Physics",
+        "upgradesTo": "Escalade",
+        "uniques": [
+            "[+200]% Strength <vs cities>",
+            "No defensive terrain bonus",
+	       "[+33]% Strength <vs [Ranged] units> <when defending>",
+	       "[-50]% Strength <vs [Land] units> <when attacking>",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
     },
     {
         "name": "Siege Tower",
@@ -928,6 +1071,22 @@ wooden fort, stone fort, star fort, bunker ; trench, fort ; AA fort, missile for
         "upgradesTo": "Lancer",
         "obsoleteTech": "Metallurgy",
         "attackSound": "metalhit"
+    },
+    {
+        "name": "Skirmisher",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 13,
+        "rangedStrength": 13,
+        "range": 1,
+        "cost": 90,
+        "uniques": [
+            "Can move after attacking"
+	],
+        "requiredTech": "Civil Service",
+        "upgradesTo": "Gatling Gun",
+        "obsoleteTech": "Industrialization",
+        "attackSound": "arrow"
     },
     {
         "name": "Ulan",
@@ -1317,6 +1476,26 @@ wooden fort, stone fort, star fort, bunker ; trench, fort ; AA fort, missile for
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "throw"
+    },
+    {
+        "name": "Escalade",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 14,
+        "cost": 120,
+        "requiredTech": "Physics",
+        "obsoleteTech": "Chemistry",
+        "upgradesTo": "Mortar",
+        "uniques": [
+            "[+200]% Strength <vs cities>",
+            "No defensive terrain bonus",
+	    "[+33]% Strength <vs [Ranged] units> <when defending>",
+	    "[-50]% Strength <vs [Land] units> <when attacking>",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "metalhit"
     },
     {
         "name": "Ballista Elephant",
@@ -1839,6 +2018,26 @@ wooden fort, stone fort, star fort, bunker ; trench, fort ; AA fort, missile for
         "cost": 185,
         "requiredTech": "Chemistry",
         "promotions": ["Indirect Fire"],
+        "upgradesTo": "Artillery",
+        "obsoleteTech": "Dynamite",
+        "uniques": [
+            "[+200]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Mortar",
+        "unitType": "Siege",
+        "movement": 2,
+        "strength": 14,
+        "rangedStrength": 18,
+        "cost": 185,
+        "requiredTech": "Chemistry",
+        "promotions": ["Indirect Fire","Anti-Naval I"],
         "upgradesTo": "Artillery",
         "obsoleteTech": "Dynamite",
         "uniques": [
