@@ -10,7 +10,6 @@
             "[+1 Production] <after discovering [Iron Working]>",
             "[+1 Production] <after discovering [Gunpowder]>",
             "[+1 Production] <after discovering [Dynamite]>",
-            "Must be next to [Luxury resource]",
             "Cannot be built on [resource] tiles",
             "Only available <with [0] to [0] neighboring [Harjis] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"

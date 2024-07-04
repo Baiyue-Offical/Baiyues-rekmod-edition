@@ -52,7 +52,7 @@
         "requiredTech": "Banking"
     },
     {
-        "name": "German Academy",
+        "name": "Imperial Academy",
         "replaces": "Public School",
         "uniqueTo": "Greater Germany",
         "science": 3,
@@ -61,9 +61,10 @@
         "maintenance": 3,
         "hurryCostModifier": 0,
         "uniques": [
-            "[+2 Science] per [2] population [in this city]",
+            "[+1 Science] per [2] population [in this city]",
+            "[+1 Science] per [4] population [in this city]",
             "[+1 Science] from [Forest] tiles [in this city]",
-	       "New [Military] units start with [15] Experience [in this city]"
+	    "New [Military] units start with [15] Experience [in this city]"
         ],
         "requiredTech": "Scientific Theory"
     },
@@ -73,7 +74,7 @@
         "uniqueTo": "Greater Germany",
         "cost": 240,
         "production": 4,
-        "percentStatBonus": {"production": 15},
+        "percentStatBonus": {"production": 10},
         "specialistSlots": {"Engineer": 2},
         "requiredBuilding": "Workshop",
         "maintenance": 3,
