@@ -20,7 +20,7 @@
         "name": "Torfbaeir",
         "replaces": "Aqueduct",
         "uniqueTo": "Greater Germany",
-        "cost": 120,
+        "cost": 100,
         "production": 2,
         "food": 2,
         "maintenance": 1,
@@ -108,13 +108,13 @@
     }, */
     {
         "name": "Seaside resort",
-        "cost": 360,
+        "cost": 75,
         "hurryCostModifier": 25,
 	"happiness": 2,
         "uniques": [
             "Must be next to [Coast]"
         ],
-        "requiredTech": "Refrigeration"
+        "requiredTech": "Sailing"
     },
     {
         "name": "Park",
