@@ -1,6 +1,80 @@
 [
     // Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
    {
+        "name": "Greek Heavy Infantry",
+        "replaces": "Spearman",
+        "uniqueTo": "Greater Greece",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 12,
+        "rangedStrength": 17,
+        "cost": 56,
+        "uniques": ["[+100]% Strength <vs [Mounted] units>"],
+        "requiredTech": "Bronze Working",
+        "upgradesTo": "Gatling Gun",
+        "obsoleteTech": "Industrialization",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Tarantine Cavalry",
+        "unitType": "Mounted Ranged",
+        "uniqueTo": "Greater Greece",
+        "replaces": "Chariot Archer",
+        "movement": 4,
+        "strength": 9,
+        "rangedStrength": 9,
+        "cost": 65,
+        "requiredTech": "The Wheel",
+        "uniques": [
+            "No defensive terrain bonus",
+	    "[-33]% Strength <vs cities> <when attacking>",
+	    "Can move after attacking"
+        ],
+        "promotions": ["Slinger Withdraw"],
+        "obsoleteTech": "Machinery",
+        "upgradesTo": "Crossbowman",
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Dromón",
+        "replaces": "Galley",
+        "unitType": "Ranged Water",
+        "uniqueTo": "Greater Greece",
+        "movement": 3,
+        "strength": 10,
+        "rangedStrength": 10,
+        "cost": 60,
+        "requiredTech": "Optics",
+        "uniques": [
+            "Cannot enter ocean tiles",
+	       "[+50]% Strength <vs cities> <when attacking>"
+        ],
+        "promotions": ["Targeting I","Targeting II"],
+        "obsoleteTech": "Compass",
+        "upgradesTo": "Galleass",
+        "attackSound": "throw"
+    },
+    {
+        "name": "Kataphraktos",
+        "replaces": "Knight",
+        "uniqueTo": "Greater Greece",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 24,
+        "cost": 120,
+        "requiredTech": "Chivalry",
+        "obsoleteTech": "Military Science",
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "[+25]% Strength <when attacking>",     
+        ],
+        "attackSound": "horse"
+    },
+   {
         "name": "Thracian brave",
         "replaces": "Spearman",
         "uniqueTo": "Bulgaria",
@@ -10,8 +84,8 @@
         "rangedStrength": 15,
         "cost": 56,
         "requiredTech": "Bronze Working",
-        "obsoleteTech": "Civil Service",
-        "upgradesTo": "Pikeman",
+        "obsoleteTech": "Machinery",
+        "upgradesTo": "Crossbowman",
         "attackSound": "metalhit"
     },
     {
@@ -3366,6 +3440,7 @@
         "promotions": [
             "Sampy"
         ],
+        "upgradesTo": "Crossbowman",
         "attackSound": "arrow"
     },
 
