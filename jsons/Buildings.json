@@ -1,5 +1,5 @@
 [
-    {
+ /*   {
         "name": "Cheese maker",
         "replaces": "Windmill",
         "uniqueTo": "Greater Germany",
@@ -50,11 +50,26 @@
          "percentStatBonus": {"production": 25},
         "requiredBuilding": "Market",
         "requiredTech": "Banking"
+    }, */
+    {
+        "name": "Antarctic Research Station",
+        "replaces": "Observatory",
+        "uniqueTo": "Antarctica",
+        "maintenance": 1,
+        "science": 4,
+        "percentStatBonus": {"science": 20},
+        "hurryCostModifier": 15,
+        "requiredBuilding": "Library",
+        "uniques": [
+            "[+1 Science] from [Snow] tiles [in this city]",
+            "[+1 Science] from [Tundra] tiles [in this city]"
+        ],
+        "requiredTech": "Astronomy"
     },
     {
         "name": "Imperial Academy",
         "replaces": "Public School",
-        "uniqueTo": "Greater Germany",
+        "uniqueTo": "German Reich",
         "science": 3,
         "specialistSlots": {"Scientist": 1},
         "requiredBuilding": "University",
@@ -71,7 +86,7 @@
     {
         "name": "German Factory",
         "replaces": "Factory",
-        "uniqueTo": "Greater Germany",
+        "uniqueTo": "German Reich",
         "cost": 240,
         "production": 4,
         "percentStatBonus": {"production": 10},
@@ -139,12 +154,12 @@
         "name": "Great library",
         "replaces": "Library",
         "uniqueTo": "Greater Greece",
-	"cost": 100,
-        "percentStatBonus": {"science": 15},
+	"cost": 75,
         "specialistSlots": {"Scientist": 1},
+        "percentStatBonus": {"science": 10},
         "hurryCostModifier": 25,
         "maintenance": 1,
-	"uniques": ["[+1 Science] per [2] population [in this city]","Destroyed when the city is captured"],
+	"uniques": ["[+1 Science] per [2] population [in this city]"],
         "requiredTech": "Writing"
     },
     {
@@ -152,16 +167,16 @@
         "replaces": "Temple",
         "uniqueTo": "Greater Greece",
         "hurryCostModifier": 25,
-	"cost": 220,
-        "faith": 6,
-        "culture": 4,        
-	"happiness": 4,
+	"cost": 200,
+        "faith": 4,
+        "culture": 2,        
+	"happiness": 2,
         "requiredBuilding": "Shrine",
         "maintenance": 0,
         "hurryCostModifier": 25,
         "requiredTech": "Philosophy"
     },
-    {
+/*    {
         "name": "Peripatetic school",
         "replaces": "University",
         "uniqueTo": "Greater Greece",
@@ -186,7 +201,7 @@
             "[+1 Production] from [Hill] tiles [in this city]"
         ],
         "requiredTech": "Metal Casting"
-    },
+    }, */
     {
         "name": "Lavra",
         "replaces": "Temple",
@@ -256,7 +271,7 @@
         "uniques": ["[55]% Food is carried over after population increases [in this city]"],
         "requiredTech": "Engineering"
     },
-    {
+ /*   {
         "name": "Monastery",
         "culture": 2,
         "faith": 2,
@@ -264,7 +279,7 @@
             "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
-    },
+    }, */
     {
         "name": "Cathedral",
         "culture": 5,
@@ -309,9 +324,9 @@
         "culture": 1,
         "faith": 2,
         "production": 1,
+        "percentStatBonus": {"production": 15},
         "uniques": [
             "Unbuildable","Unsellable",
-            "[+15]% Production when constructing [All] buildings [in this city]",
             "Hidden when religion is disabled"
         ]
     },
@@ -587,6 +602,7 @@
         "name": "Mala'e",
         "replaces": "Granary",
         "uniqueTo": "Tonga",
+        "cost": 60,
         "faith": 1,
         "food": 2,
         "maintenance": 1,
@@ -597,7 +613,8 @@
             "[+1 Food] from [Bananas] tiles [in this city]",
             "[+1 Food] from [Wheat] tiles [in this city]",
             "[+1 Food] from [Maize] tiles [in this city]",
-            "[+2 Food, +2 Culture] <with [3] to [6] neighboring [Coast] tiles>"
+            "[+1 Food, +1 Culture, +1 Faith] <with [2] to [3] neighboring [Coast] tiles>",
+            "[+2 Food, +2 Culture, +2 Faith] <with [4] to [6] neighboring [Coast] tiles>"
         ],
         "requiredTech": "Sailing"
     },
@@ -1018,6 +1035,8 @@
         "uniqueTo": "Carthage",
         "cost": 75,
         "food": 1,
+        "happiness": 1,
+        "production": 1,
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
@@ -1268,6 +1287,7 @@
         "cost": 120,
         "food": 1,
         "production": 1,
+	"happiness": 1,
         "faith": 2,
         "requiredBuilding": "Shrine",
         "maintenance": 2,
@@ -1991,7 +2011,7 @@
             "Connects trade routes over water",
             "Must be next to [Coast]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
-            "[+1 Gold] from [Water resource] tiles [in this city]",
+	    "[+15]% Production when constructing [Water] units [in this city]",
             "New [Water] units start with [15] Experience [in this city]"
         ],
         "requiredTech": "Compass"

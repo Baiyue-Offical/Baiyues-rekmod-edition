@@ -144,7 +144,7 @@
         "innerColor": [242, 251, 245],
         "uniqueName": "Cyrillic Script",
         "uniques": [
-                  "[+2 Production, +1 Happiness] [in all cities]"
+                  "[+1 Production, +1 Happiness] [in all cities]"
         ],
         "cities": [
             "Pliska","Preslav","Tarnovo","Plovdiv","Prilep","Sofia","Vidin","Nis","Kastoria","Skopje",
@@ -226,13 +226,9 @@
         "innerColor": [65,141,253],
         "uniqueName": "Combined Greek Spirit",
         "uniques": [
-		"[+1 Food, +1 Science] from every specialist [in all cities]",
-		"May choose [1] additional belief(s) of any type when [founding] a religion","May choose [1] additional belief(s) of any type when [enhancing] a religion",
-		"[+2 Production, +1 Happiness] [in all cities]",
-                "Free [Great General] appears <upon discovering [Horseback Riding] technology>","[Great General] is earned [25]% faster",
-                "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]","[+1 Food, +1 Culture, +1 Happiness] from every [Armory]",
-		"[+25]% Production when constructing [Military] units [in all cities]","[+25]% Strength <when attacking> <for [Military] units>" 
-        ],
+		"[+1 Food] from every specialist [in all cities]",
+		"May choose [1] additional belief(s) of any type when [enhancing] a religion"
+		        ],
         "cities": [
             "Athens","Constantinople","Pella","Pliska","Ambracia","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
             "Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
@@ -436,7 +432,7 @@
         ]
     },  
    {
-        "name": "Greater Germany",
+        "name": "German Reich",
         "leaderName": "Germania",
         "adjective": ["German"],
         "startBias": ["Avoid [Coast]"],
@@ -453,10 +449,9 @@
         "outerColor": [130,130,130],
         "innerColor": [50,50,50],
         "uniqueName": "Combined German Spirit",
-        "uniques": ["[+1] Movement <for [Land] units>","[-50]% maintenance costs <for [Land] units>","[50]% XP gained from combat <for [Land] units>",
-	    "[+3 Science] from every [Windmill]","[+3 Science] from every [Workshop]","[+3 Science] from every [Factory]",
-	    "[+25]% Production towards any buildings that already exist in the Capital","[+1 Production] from every [Plantation]","[+1 Gold] from every [Strategic resource]",
-	    "[+1 Production, +1 Faith] from every [Water resource]","[+1 Food, +1 Production] from every [Tundra]","[Gold] cost of purchasing items in cities [-20]%"], 
+        "uniques": ["[+1] Movement <for [Armored] units>","[+1] Movement <for [Gunpowder] units>","[+1] Movement <for [Paratrooping] units>",
+		    "[-50]% maintenance costs <for [Land] units>","[50]% XP gained from combat <for [Land] units>",
+	            "[+3 Science] from every [Windmill]","[+3 Science] from every [Workshop]","[+3 Science] from every [Factory]"], 
         "cities": [
             "Berlin","Arheimar","Konigsberg","Wean","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
             "Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
@@ -465,5 +460,32 @@
             "Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gottingen","Wolfsburg",
             "Koblenz","Hildesheim","Erlangen"
         ]
-    }
+    },
+   {
+        "name": "Antarctica",
+        "leaderName": "Skipper",
+        "adjective": ["Penguin"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Penguins, rise.",
+        "startIntroPart2": "The penguin domination has begin.",
+        "declaringWar": "You will die.",
+        "attacked": "You will die.",
+        "defeated": "Impossible.",
+        "introduction": "Yo.",
+        "neutralHello": "Hi.",
+        "hateHello": "Why are you here",
+        "tradeRequest": "I offer this.",
+        "outerColor": [105,205,235],
+        "innerColor": [255,255,255],
+        "uniqueName": "Penguin's habitat",
+        "uniques": ["[+1 Food] from every [Coast]","[+1 Food] from every [Tundra]","[+1 Food] from every [Snow]","[-1 Food] from every [Desert]","[-1 Food] from every [Jungle]",            		"[Land] units gain the [Amphibious] promotion","[Land] units gain the [War Canoes] promotion","[+10]% Strength <for [Military] units> <in [Tundra] tiles>",
+		"[+10]% Strength <for [Military] units> <in [Snow] tiles>","[-10]% Strength <for [Military] units> <in [Desert] tiles>"], 
+        "cities": [
+		"Emperor Penguin City","Ross Ice","Erebus","Queen Maud","Ross Sea","Amundsen-Scott","McMurdo","Ellsworth","Amundsen Sea","Palmer","Byrd Glacier","Davis",
+		"Vinson Massif","Ronne Ice","Cape Adare","Thiel","Dumont d'Urville","Mawson","Cape Royds","Auroraheim","Glacialand","Frostwing","Snowflake Springs","Frostflame",
+		"Glacier's Edge","Crystalstadt","Tundraville","Polar Peak","Penguin's Perch","Frostbite Falls","Snowhaven","Polar Dominion",
+		"Avalanche Heights","Icebergton","Polarisburg","Icefallia","Blizzard Bay","Arheimar","Snowpeak City","Freezeport","Chillchester","Icecap City",
+		"Arctic Haven","Beakborough","Icicle Falls","Penguinopolis","Glacier Grove","Penguinstadt"]
+    } 
 ]
