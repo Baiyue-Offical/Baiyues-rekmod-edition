@@ -3,6 +3,7 @@
     {
         "name": "Diver",
         "unitType": "Melee Water",
+        "uniqueTo": "Antarctica",
         "movement": 4,
         "strength": 11,
         "cost": 60,
@@ -18,6 +19,7 @@
     {
         "name": "Renaissance Diver",
         "unitType": "Melee Water",
+        "uniqueTo": "Antarctica",
         "movement": 4,
         "strength": 30,
         "cost": 150,
@@ -66,12 +68,12 @@
         "cost": 410,
         "requiredTech": "Electronics",
         "uniques": ["Can move after attacking"],
-        "upgradesTo": "Mechanized Infantry",
+        "upgradesTo": "WAP",
         "obsoleteTech": "Mobile Tactics",
         "attackSound": "shot"
     },
     {
-        "name": "WAP",
+        "name": "WAP",,
         "unitType": "Gunpowder",
         "uniqueTo": "Antarctica",
         "movement": 3,

@@ -249,6 +249,16 @@
         "uniques": ["Destroyed when the city is captured"]
     },
     {
+        "name": "Courthouse",
+        "maintenance": 4,
+        "hurryCostModifier": 50,
+        "uniques": [
+            "Remove extra unhappiness from annexed cities",
+            "Can only be built [in annexed cities]"
+        ],
+        "requiredTech": "Mathematics"
+    },
+    {
         "name": "Forum",
         "uniqueTo": "Rome",
         "replaces": "Courthouse",
