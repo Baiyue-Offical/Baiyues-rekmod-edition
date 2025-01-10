@@ -73,7 +73,7 @@
         "attackSound": "shot"
     },
     {
-        "name": "WAP",,
+        "name": "WAP",
         "unitType": "Gunpowder",
         "uniqueTo": "Antarctica",
         "movement": 3,
@@ -920,7 +920,7 @@
         ],
         "hurryCostModifier": 20,
         "attackSound": "horse"
-    },
+    }, 
     {
         "name": "African Forest Elephant",
         "unitType": "Mounted",
