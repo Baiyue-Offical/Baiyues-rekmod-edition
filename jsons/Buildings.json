@@ -1411,7 +1411,7 @@
         "faith": 2,
         "happiness": 1,
         "requiredBuilding": "Shrine",
-        "maintenance": 1,
+        "maintenance": 2,
         "hurryCostModifier": 25,
         "requiredTech": "Philosophy"
     },
