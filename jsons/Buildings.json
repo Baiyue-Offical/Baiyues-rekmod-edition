@@ -1404,20 +1404,16 @@
     },
     {
         "name": "Hippodrome",
-        "replaces": "Amphitheater",
+        "replaces": "Temple",
         "uniqueTo": "Byzantium",
         "cost": 95,
         "culture": 2,
         "faith": 2,
         "happiness": 1,
-        "requiredBuilding": "Monument",
-        "maintenance": 2,
+        "requiredBuilding": "Shrine",
+        "maintenance": 1,
         "hurryCostModifier": 25,
-        "uniques": [
-            "Destroyed when the city is captured",
-            "Comment [Has 1 Great Work of Writing Slot]"
-        ],
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Philosophy"
     },
     {
         "name": "Odeon",
