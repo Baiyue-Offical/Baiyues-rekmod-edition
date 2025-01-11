@@ -138,6 +138,16 @@
         ]
     },
     {
+        "name": "Mystic Ways",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Food] from every [Forest]",
+            "[+1 Faith] from every [Jungle]",
+            "[+1 Faith] from every [Hardwood]",
+            "[+1 Faith] from every [Rubber]"
+        ]
+    },
+    {
         "name": "Ocean's Bounty",
         "type": "Pantheon",
         "uniques": [

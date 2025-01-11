@@ -226,9 +226,14 @@
         "innerColor": [65,141,253],
         "uniqueName": "Combined Greek Spirit",
         "uniques": [
-		"[+1 Food] from every specialist [in all cities]",
-		"May choose [1] additional belief(s) of any type when [enhancing] a religion"
+		"[+1 Food, +1 Science] from every specialist [in all cities]",
+		"May choose [1] additional belief(s) of any type when [founding] a religion","May choose [1] additional belief(s) of any type when [enhancing] a religion",
+		"[+2 Production, +1 Happiness] [in all cities]",
+                "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
+		"[+25]% Production when constructing [Military] units [in all cities]","[+25]% Strength <when attacking> <for [Military] units>",
+                "[+3 Science] from every [Library]","[+3 Science] from every [University]"
 		        ],
+
         "cities": [
             "Athens","Constantinople","Pella","Pliska","Ambracia","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
             "Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",

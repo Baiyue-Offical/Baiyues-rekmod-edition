@@ -89,11 +89,12 @@
         "uniqueTo": "Greater Greece",
         "unitType": "Sword",
         "movement": 2,
-        "strength": 14,
+        "strength": 13,
+        "rangedStrength": 15,
         "cost": 56,
-        "uniques": ["[+100]% Strength <vs [Mounted] units>"],
+        "uniques": ["[+50]% Strength <vs [Mounted] units>"],
         "requiredTech": "Bronze Working",
-        "upgradesTo": "Pikeman",
+        "upgradesTo": "Gatling Gun",
         "obsoleteTech": "Industrialization",
         "attackSound": "metalhit"
     },
@@ -105,7 +106,7 @@
         "movement": 4,
         "strength": 9,
         "rangedStrength": 9,
-        "cost": 65,
+        "cost": 56,
         "requiredTech": "The Wheel",
         "uniques": [
             "No defensive terrain bonus",
@@ -116,21 +117,20 @@
         "upgradesTo": "Crossbowman",
         "attackSound": "arrow"
     },
-/*    {
+    {
         "name": "Dromón",
         "replaces": "Galley",
         "unitType": "Ranged Water",
         "uniqueTo": "Greater Greece",
         "movement": 3,
-        "strength": 10,
+        "strength": 8,
         "rangedStrength": 10,
         "cost": 60,
         "requiredTech": "Optics",
         "uniques": [
             "Cannot enter ocean tiles",
-	       "[+50]% Strength <vs cities> <when attacking>"
         ],
-        "promotions": ["Targeting I","Targeting II"],
+        "promotions": ["Targeting I","Targeting II","Targeting III"],
         "obsoleteTech": "Compass",
         "upgradesTo": "Galleass",
         "attackSound": "throw"
@@ -151,10 +151,10 @@
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
-            "[+25]% Strength <when attacking>",     
+            "[+25]% Strength <when attacking>"     
         ],
         "attackSound": "horse"
-    }, */
+    },
    {
         "name": "Thracian brave",
         "replaces": "Spearman",
