@@ -130,7 +130,7 @@
         "uniques": [
             "Cannot enter ocean tiles",
         ],
-        "promotions": ["Targeting I","Targeting II","Targeting III"],
+        "promotions": ["Targeting I","Targeting II"],
         "obsoleteTech": "Compass",
         "upgradesTo": "Galleass",
         "attackSound": "throw"
@@ -155,6 +155,21 @@
         ],
         "attackSound": "horse"
     },
+   {
+		"name":"Palatini",
+		"unitType":"Melee",
+		"uniqueTo":"Greater Greece",
+		"replaces":"Pikeman",
+		"movement":2,
+		"strength":19,
+		"cost":90,
+		"hurryCostModifier":10,
+		"requiredTech": "Civil Service",
+                "obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"promotions": ["Cover I"],
+		"attackSound":"shot"
+   },
    {
         "name": "Thracian brave",
         "replaces": "Spearman",

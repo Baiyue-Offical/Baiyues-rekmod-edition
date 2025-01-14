@@ -224,14 +224,16 @@
         "tradeRequest": "We have sent you a delegation bearing gifts. Don't be alarmed, there's no large wooden horse involved.",
         "outerColor": [200, 200, 255],
         "innerColor": [65,141,253],
-        "uniqueName": "Combined Greek Spirit",
+        "uniqueName": "Combined Greco Roman Spirit",
         "uniques": [
 		"[+1 Food, +1 Science] from every specialist [in all cities]",
 		"May choose [1] additional belief(s) of any type when [founding] a religion","May choose [1] additional belief(s) of any type when [enhancing] a religion",
 		"[+2 Production, +1 Happiness] [in all cities]",
-                "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
 		"[+25]% Production when constructing [Military] units [in all cities]","[+25]% Strength <when attacking> <for [Military] units>",
-                "[+3 Science] from every [Library]","[+3 Science] from every [University]"
+                "[+3 Science] from every [Library]","[+3 Science] from every [University]","[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
+                "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]","[+1 Happiness, +2 Food, +3 Gold, +4 Production, +10 Faith] [in all cities] <after adopting [Aesthetics]> <hidden from users>","Free [Settler] appears <after adopting [Aesthetics]> <hidden from users>","[-50]% Food consumption by specialists [in all cities] <after adopting [Aesthetics]> <hidden from users>","[Dromón] units gain the [Targeting III] promotion <after adopting [Aesthetics]> <hidden from users>","[-10]% Culture cost of adopting new Policies <after adopting [Aesthetics]> <hidden from users>","[Faith] cost of purchasing items in cities [-30]% <after adopting [Aesthetics]> <hidden from users>",
+		//Rome 
+		"[+25]% Production towards any buildings that already exist in the Capital","[+2 Production] [in all cities connected to capital]"
 		        ],
 
         "cities": [

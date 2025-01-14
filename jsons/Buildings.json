@@ -151,6 +151,16 @@
         "requiredTech": "Masonry"
     }, 
     {
+        "name": "Roman Aqueduct",
+        "uniqueTo": "Greater Greece",
+        "replaces": "Aqueduct",
+        "happiness": 1,
+        "maintenance": 1,
+        "hurryCostModifier": 0,
+        "uniques": ["[55]% Food is carried over after population increases [in this city]"],
+        "requiredTech": "Engineering"
+    },
+    {
         "name": "Walls of Byzantium",
         "replaces": "Walls",
         "uniqueTo": "Greater Greece",
@@ -159,17 +169,6 @@
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured"]
-    },
-    {
-        "name": "Great library",
-        "replaces": "Library",
-        "uniqueTo": "Greater Greece",
-	"cost": 75,
-        "specialistSlots": {"Scientist": 1},
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-	"uniques": ["[+1 Science] per [2] population [in this city]"],
-        "requiredTech": "Writing"
     },
     {
         "name": "Acropolis",
