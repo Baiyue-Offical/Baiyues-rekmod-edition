@@ -662,6 +662,7 @@
         "unitType": "Melee Water",
         "movement": 4,
         "strength": 13,
+        "cost": 45,
         "uniques": [
             "Can move after attacking",
             "Unbuildable",
