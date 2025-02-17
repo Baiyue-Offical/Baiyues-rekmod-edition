@@ -232,9 +232,9 @@
 		"[+25]% Production when constructing [Military] units [in all cities]","[+25]% Strength <when attacking> <for [Military] units>",
                 "[+3 Science] from every [Library]","[+3 Science] from every [University]","[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
                 "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]",
-		"[+1 Culture, +1 Happiness, +1 Food, +2 Gold, +2 Production, +6 Faith] [in all cities] <after adopting [Aesthetics]> <hidden from users>","[+1 Food, +2 Production, +4 Happiness, +3 Faith] [in capital] <after adopting [Aesthetics]> <hidden from users>","[+1 Production, +2 Faith] <in cities with at least [2] [Population]> <after adopting [Aesthetics]> <hidden from users>","[+1 Food] <in cities with at least [3] [Population]> <after adopting [Aesthetics]> <hidden from users>",
+		"[+1 Culture, +1 Happiness, +1 Food, +2 Gold, +2 Production, +6 Faith] [in all cities] <after adopting [Aesthetics]> <hidden from users>","[+1 Food, +2 Production, +4 Happiness, +3 Faith] [in capital] <after adopting [Aesthetics]> <hidden from users>",
 		"[-50]% Food consumption by specialists [in all cities] <after adopting [Aesthetics]> <hidden from users>","[Dromón] units gain the [Targeting III] promotion <after adopting [Aesthetics]> <hidden from users>","May buy [All] units with [Faith] for [1] times their normal Production cost <after adopting [Aesthetics]> <hidden from users>",
-		"[+33]% Production when constructing [Settler] units [in all cities] <after adopting [Aesthetics]> <hidden from users>","[Gold] cost of purchasing [All] buildings [-50]% <after adopting [Aesthetics]> <hidden from users>","[-25]% maintenance costs <for [All] units> <after adopting [Aesthetics]> <hidden from users>",
+		"[+33]% Production when constructing [Settler] units [in all cities] <after adopting [Aesthetics]> <hidden from users>","[Gold] cost of purchasing [All] buildings [-75]% <after adopting [Aesthetics]> <hidden from users>","[-25]% maintenance costs <for [All] units> <after adopting [Aesthetics]> <hidden from users>",
 		//Rome 
 		"[+25]% Production towards any buildings that already exist in the Capital","[+2 Production] [in all cities connected to capital]"
 		        ],
