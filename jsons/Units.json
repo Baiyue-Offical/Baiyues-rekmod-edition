@@ -2197,7 +2197,6 @@
             "[+33]% Strength <vs [Mounted] units>",
             "[+1] Sight"
         ],
-        "promotions": ["[Sipahi] ability"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
@@ -2435,7 +2434,6 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "[+1] Sight"
         ],
-        "promotions": ["[Hussar] ability"],
         "attackSound": "horse"
     },
     {
