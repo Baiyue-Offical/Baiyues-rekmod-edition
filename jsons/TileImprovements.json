@@ -1,5 +1,93 @@
 [
     {
+        "name": "Chemamull",
+        "uniqueTo": "Mapuche",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains"],
+        "production": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Calendar",
+        "uniques": [
+            "[+1 Culture] <after discovering [Printing Press]>",
+            "[+1 Culture] <with [1] to [6] neighboring [Mountain] tiles>",
+            "[+1 Culture] <with [1] to [6] neighboring [Oasis] tiles>",
+            "[+2 Culture] for each adjacent [Holy site]",
+            "[+2 Culture] for each adjacent [Landmark]",
+            "[+2 Culture] for each adjacent [Academy]",
+            "[+2 Culture] for each adjacent [Dry Dock]",
+            "[+2 Culture] for each adjacent [Customs house]"
+
+        ],
+        "shortcutKey": "T"
+    },
+    {
+        "name": "Maloca",
+        "uniqueTo": "Tupi",
+        "terrainsCanBeBuiltOn": ["Jungle"],
+        "production": 2,
+        "turnsToBuild": 7,
+        "techRequired": "Calendar",
+        "uniques": [
+	    "Can only be built to improve a resource",
+	    /* "Improves [Bonus] resource in this tile",
+	    "Improves [Strategic] resource in this tile",
+	    "Improves [Luxury] resource in this tile", */
+	    "Improves [all] resource in this tile",
+            "[+1 Food] <after discovering [Fertilizer]>",
+            "[+1 Culture] <after discovering [Radio]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+        ]
+    },
+    {
+        "name": "Wet rice farm",
+        "uniqueTo": "Baiyue",
+        "terrainsCanBeBuiltOn": ["Grassland"],
+        "food": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Calendar",
+        "uniques": [
+	    "[+1 Food] <in tiles adjacent to [Coast] tiles>"
+            "[+1 Food] from [River] tiles",
+            "[+1 Food] <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+        ]
+    },
+    {
+        "name": "Chatallata",
+        "uniqueTo": "Tiwanaku",
+        "terrainsCanBeBuiltOn": ["Plains"],
+        "science": 2,
+        "faith": 3,
+        "turnsToBuild": 7,
+        "techRequired": "Construction",
+        "uniques": [
+	    "Unbuildable",
+            "Pillaging this improvement yields approximately [+18 Gold]",
+	    "[+1 Science, +1 Faith] <after discovering [Astronomy]>",
+            "Must be next to [City center]",
+            "[+1 Science, +1 Faith] for each adjacent [Mountain]",
+            "[+2 Science] for each adjacent [Academy]",
+            "[+2 Faith] for each adjacent [Holy site]",
+            "[+2 Culture] for each adjacent [Landmark]",
+            "[+2 Production] for each adjacent [Manufactory]",
+            "[+2 Production] for each adjacent [Dry Dock]",
+            "[+2 Gold] for each adjacent [Customs house]"
+        ]
+    },
+    {
+        "name": "Bohio",
+        "uniqueTo": "Arawak",
+        "terrainsCanBeBuiltOn": ["Forest","Jungle"],
+        "food": 1,
+        "faith": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Agriculture",
+        "uniques": [
+            "[+1 Culture] <after discovering [Archaeology]>",
+            "[+1 Faith] from [Forest] tiles",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+        ]
+    },
+    {
         "name": "Igloo",
         "uniqueTo": "Antarctica",
         "terrainsCanBeBuiltOn": ["Tundra","Snow"],
@@ -8,7 +96,35 @@
         "techRequired": "Agriculture",
         "uniques": [
             "[+1 Production] <after discovering [Industrialization]>",
-            "Cannot be built on [resource] tiles",
+            "Cannot be built on [resource] tiles"]
+    },
+    {
+        "name": "Mekewap",
+        "uniqueTo": "Cree",
+        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains"],
+	"food": 1,
+        "production": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Pottery",
+        "uniques": [
+            "[+1 Production] <after discovering [Civil Service]>",
+            "Must be next to [Bonus resource]",
+            "[+1 Gold] for each adjacent [Luxury resource]",
+            "Only available <with [0] to [0] neighboring [Mekewap] tiles>"
+        ]
+    },
+    {
+        "name": "Inuksuk",
+        "uniqueTo": "Inuit",
+        "terrainsCanBeBuiltOn": ["Tundra","Snow"],
+	"food": 1,
+        "production": 1,
+	"Culture": 1,
+        "turnsToBuild": 7,
+        "techRequired": "Calendar",
+        "uniques": [
+            "[+1 Food] <after discovering [Banking]>",
+            "Only available <with [0] to [1] neighboring [Inuksuk] tiles>"
         ]
     },
     {

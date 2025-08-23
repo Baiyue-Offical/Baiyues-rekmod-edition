@@ -24,10 +24,10 @@
         "innerColor": [255,255,255],
         "uniqueName": "Manifest Destiny",
         "uniques": [
-            "[+1] Sight <for [{Military} {Land}] units>",
+            "[+1] Sight <for [Settler] units>",
             "[-50]% Gold cost of acquiring tiles [in all cities]",
-            "[+50]% Production when constructing [Settler] units [in all cities]",
-            "[+25]% Production when constructing [Worker] units [in all cities]"
+            "[+30]% Production when constructing [Settler] units [in all cities]",
+            "[+15]% Production when constructing [Worker] units [in all cities]"
         ],
         "cities": [
             "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
@@ -39,12 +39,11 @@
         ]
     },
     {
-        "name": "Argentina",
-        "leaderName": "Eva Peron",
-        "adjective": ["Argentine"],
-        "startBias": ["Avoid [Coast]"],
-        "preferredVictoryType": "Scientific",
-        "startIntroPart1": " ",
+        "name": "Arawak",
+        "leaderName": "Kururumany",
+        "adjective": ["Arawak"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "...",
         "startIntroPart2": " ",
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
@@ -52,46 +51,75 @@
         "introduction": "Welcome, mighty leader.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-        "outerColor": [64, 138, 178],
-        "innerColor": [244, 244, 86],
-        "uniqueName": "Pride of the People",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [194, 178, 128],
+        "innerColor": [0, 225, 0],
+        "uniqueName": "Creator god",
         "uniques": [
-            "[-50]% construction time for [Pasture] improvements",
-            "[-50]% construction time for [Farm] improvements"
+		"Comment [May buy Library, Barracks, Colosseum, Lighthouse, Temple, Ampitheater, Market, Aqueduct and Workshop buildings with Faith for 2 times their normal Production cost in cities following our religion]",
+		"May buy [Library] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Barracks] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Colosseum] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Lighthouse] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Temple] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Market] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Aqueduct] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>",
+		"May buy [Workshop] buildings with [Faith] for [2] times their normal Production cost <in cities following our religion> <hidden from users>"
         ],
         "cities": [
-            "Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
-            "Salta","San Juan","San Luis","Santa Fe","Santiago del Estero","Ushuaia","Tucuman","Resistencia","Rawson","Santa Rosa","Viedma",
-            "Ushuaia"
+		"Boriken", "Cubanacan", "Haiti", "Kiskeya", "Jamaica", "Arakaka", "Imataka", "Guanaba", "Liguanea", "Amakura", "Iere", "Malliouhana", "Aloi", "Ocanmanru", "Liamugua", "Atabei", "Waitukubuli", "Ichirouganaim", "Kalaoucera", "Oualiche", "Touloukaera", "Iyanola", "Oualie", "Hairoun", "Wadadli"
         ]
     },
     {
-        "name": "Australia",
-        "leaderName": "Henry Parker",
-        "adjective": ["Australian"],
-        "startBias": ["Coast"],
-        "preferredVictoryType": "Cultural",
-        "startIntroPart1": " ",
+        "name": "Baiyue",
+        "leaderName": "Loc Tuc",
+        "adjective": ["Baiyuian"],
+        "startBias": ["Jungle","River"],
+        "startIntroPart1": "...",
         "startIntroPart2": " ",
-        "declaringWar": "The Commonwealth of Australia formally declare war on you!",
-        "attacked": "Australia will not sit idly, we shall defend our homeland 'till our dying breath!",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
         "defeated": "The victory is yours.",
-        "introduction": "The Commonwealth Of Australia greets you, fellow nation. I am Prime Minister Henry Parker and I look forward to cooperate with you!",
-        "neutralHello": "Welcome.",
-        "hateHello": "?",
-        "tradeRequest": "Will you accept this deal?",
-        "outerColor": [0, 91, 65],
-        "innerColor": [225, 148, 26],
-        "uniqueName": "Dreamtime",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [255,255,0],
+        "innerColor": [250, 245, 239],
+        "uniqueName": "River dwellers",
         "uniques": [
-            "[+5 Faith] from every [Natural Wonder]",
-            "Gain [10] [Faith] <upon discovering a Natural Wonder>"
+		"[+1 Gold] from [River] tiles [in all cities]","[+20]% Strength <for [Military] units> <in tiles adjacent to [River] tiles>"
         ],
         "cities": [
-            "Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
-            "Hobart","Geelong","Cairns","Darwin","Toowoomba","Albury","Queanbeyan","Rockhampton","Bunbury","Bundaberg",
-            "Wagga Wagga","Bendigo","Ballarat","Mittagong"
+		"Panyu","Nam Cương","Jiaozhi","Cổ Loa","Dong'ou","Guiji","Cangwu","Julan","Yelang","Tây Âu","Thành Bản Phủ","Nghĩa Lĩnh","Ngàn Hống","Tengyue","Hansa","Xiwu","Văn Lang","Tan Hung","Duong Tuyen","Ninh Hai","Luc Hai","GiaoChi","CuuChan","Hoai Hoan","CuuDuc","Viet Thuong"]
+    },
+    {
+        "name": "Breedland",
+        "leaderName": "Joecow",
+        "adjective": ["Cow people"],
+        "startBias": ["Grassland"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Welcome President Washington! You lead the industrious American civilization! Formed in the conflagration of revolution in the 18th century, within a hundred years, the young nation became embroiled in a terrible civil war that nearly tore the country apart, but it was just a few short years later in the 20th century that the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations. The United States is a nation of immigrants, filled with optimism and determination. They lack only a leader to help them fulfill their promise.",
+        "startIntroPart2": "President Washington, can you lead the American people to greatness? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "We will enter your land and breed with your women!",
+        "attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+        "defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+        "introduction": "I want to breed.",
+        "neutralHello": "Come.",
+        "hateHello": "What?",
+        "tradeRequest": "Is the following trade of interest to you?",
+        "outerColor": [135,206,235],
+        "innerColor": [34, 189, 34],
+        "uniqueName": "The will to breed",
+        "uniques": [
+		"[+1 Food] [in all cities]","[+1 Food] [in puppeted cities]","[+1 Food] [in annexed cities]","[+1 Food] from every [Cattle]","\"Borrows\" city names from other civilizations in the game"
+		/* ,"Nullifies [Happiness] [in all cities] <when between [-1] and [-9] Happiness> <hidden from users>",
+		"Comment [No growth penalty from unhappiness when above -10 Happiness]" */
+
+        ],
+        "cities": [
+            "Washington"
         ]
     },
     {
@@ -169,12 +197,45 @@
         "outerColor": [88,145,228],
         "innerColor": [80,23,135],
         "uniqueName": "Patriarchate of Constantinople",
-        "uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","May choose [1] additional belief(s) of any type when [enhancing] a religion"],
+        "uniques": [/* "May choose [1] additional belief(s) of any type when [founding] a religion","May choose [1] additional belief(s) of any type when [enhancing] a religion" */
+                    "May choose [1] additional [Follower] beliefs when [founding] a religion","May choose [1] additional [Enhancer] beliefs when [enhancing] a religion"],
         "cities": [
             "Constantinople","Adrianople","Nicaea","Antioch","Varna","Ohrid","Nicomedia","Trebizond","Cherson","Sardica",
             "Ani","Dyrrachium","Edessa","Chalcedon","Naissus","Bari","Iconium","Prilep","Samosata","Kars",
             "Nicopolis","Theodosiopolis","Tyana","Gaza","Kerkyra","Phoenice","Selymbria","Sillyon","Chrysopolis","Corycus",
             "Vodena","Caesarea Maritima","Traianoupoli","Constantia"
+        ]
+    },
+    {
+        "name": "Cherokee",
+        "leaderName": "Attakullakulla",
+        "adjective": ["Cherokee"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "First Beloved Man, the ancestor spirits will lead you! Your shaman urge you to follow their path, and strike down your would be opponents. Are you prepared for challenges the likes of which no Cherokee has ever faced? Will you carry the sacred flame to every corner of the world? Can you build a civilization that will stand the test of time?",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "Once again my people must walk a Trail of Tears...",
+        "introduction": "Every day I meet new people, look upon new faces. Tell me, stranger, why have you come to see Chief Attakullakulla?",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [163, 86, 41],
+        "innerColor": [205, 165, 0],
+        "uniqueName": "Adaptation",
+        "uniques": [
+		"Allied City-States provide [Science] equal to [+50]% of what they produce for themselves",
+		"Science gained from research agreements [+50]%",
+		"Gain a free [Eternal Flame] [in this city] <upon founding a city> <if [Eternal Flame Ability] is constructed> <hidden from users>",
+		"Gain a free [Eternal Flame] [in this city] <upon conquering a city> <if [Eternal Flame Ability] is constructed> <hidden from users>",
+		"Comment [Free Eternal Flame in all founded and captured cities after constructing one Eternal Flame]"
+        ],
+        "cities": [
+            "Great Tellico", "Nikwasi", "Echota", "Tannassy", "Citico", "Chatuga", "Isunigu", "Keowee", "Tallassee", "Cowee", "Kituwa", "Ayuhwasi", "Chickamuga", "Ani-Kusati-yi", "Tuskegee", "Dakwa'yi", "Mialoquo", "Tomotley", "Gansagiyi", "Dugiluyi", "Kulsetsiyi", "Titsohili", "Nununyi", "Chilhowee", "Yunsayi", "Elatseyi", "Watauga", "Tikwalitsi", "Oconee", "Gun’-di’ga-duhun’yi", "Elawodi", "Itse'yi", "Running Water", "Long Island", "Crow Town", "Lookout Mountain"
+        ],
+        "spyNames": [
+            "Kanuna", "Dustu", "Atsadi", "Tsiyi", "Unaduti", "Atohi", "Wohali", "Ahuli", "Wesa", "Diwali"
         ]
     },
     {
@@ -224,26 +285,51 @@
         "tradeRequest": "We have sent you a delegation bearing gifts. Don't be alarmed, there's no large wooden horse involved.",
         "outerColor": [200, 200, 255],
         "innerColor": [65,141,253],
-        "uniqueName": "Combined Greco Roman Spirit",
+        "uniqueName": "Aristocrat class",
         "uniques": [
-		"[+1 Food, +1 Science] from every specialist [in all cities]",
-		"May choose [1] additional belief(s) of any type when [founding] a religion","May choose [1] additional belief(s) of any type when [enhancing] a religion",
-		"[+2 Production, +1 Happiness] [in all cities]",
-		"[+25]% Production when constructing [Military] units [in all cities]","[+25]% Strength <when attacking> <for [Military] units>",
-                "[+3 Science] from every [Library]","[+3 Science] from every [University]","[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
-                "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]",
-		"[+1 Gold, +1 Faith] from every [Barracks] <hidden from users>","[+1 Food, +1 Production] from every [Library] <hidden from users>",
-		"[-25]% maintenance costs <for [All] units> <hidden from users>","[-50]% maintenance cost for buildings [in all cities] <hidden from users>",
-		//Rome 
-		"[+25]% Production towards any buildings that already exist in the Capital","[+2 Production] [in all cities connected to capital]"
+		"[+1 Food, +1 Science] from every specialist [in all cities]"
 		        ],
 
         "cities": [
-            "Athens","Rome","Constantinople","Pella","Pliska","Ambracia","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+            "Athens","Constantinople","Pella","Pliska","Ambracia","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
             "Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
             "Paros","Tegea","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
             "Sicyon","Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis","Patras",
             "Lamia","Nafplion","Apolyton"
+        ]
+    },
+    {
+        "name": "Cree",
+        "leaderName": "Poundmaker",
+        "adjective": ["Cree"],
+        "startBias": ["Plains"],
+        "startIntroPart1": "Your wisdom and firm hand is what we need, great Poundmaker! If our people are to thrive in these new lands, we will need to seek peace and friendship among the many diverse peoples around us. Will you rise up and make us into a great nation, spanning many lands, that stands the test of time?",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "I must do what I can to atone for any wrongs my people have committed.",
+        "introduction": "Wisdom is found in the words of our ancestors and in the coming of change. Today, change has come in the form of new faces. Let us be friends",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [50,178,50],
+        "innerColor": [0,0,139],
+        "uniqueName": "Nîhithaw",
+        "uniques": [
+            "Free [Caravan] appears <upon discovering [Pottery] technology>","Provides [1] [Trade Route] <upon discovering [Pottery] technology>",
+	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Land Trade Route (Food)] improvement>",
+	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Land Trade Route (Production)] improvement>",
+	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Land Trade Route (Gold)] improvement>",
+	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Sea Trade Route (Food)] improvement>",
+	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Sea Trade Route (Production)] improvement>",
+	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Sea Trade Route (Gold)] improvement>"
+// "[-15]% Culture cost of natural border growth [in all cities connected to capital]"
+        ],
+        "cities": [
+            "Mikisiw-Wacîhk", "Ahtahkakoop", "Pihtokahanapiwiyin", "Mistahi-Sipihk", "Mistawasis", "Wihkasko-Kiseyin", "Makwa-Sakahikan", "Maskotew", "Paskwaw-Askihk", "Piyesiw-Awasis", "Peepeekisis", "Kinosew-Sakahikan", "Ka-Peyakwaskonam", "Missanabie", "Moosomin", "Kawacatoose", "Whapmagoostui", "Okanese", "Chemawawin", "Ka-kiwistahaw", "Nekaneet", "Kawawachikamach", "Natashquan", "Wapi-maskwa", "Waskahikanihk", "Papewe", "Ka-ohpawakastahk", "Ochapowace", "Tataskweyak", "Posakanacihk"
+        ],
+        "spyNames": [
+            "Ayimasis", "Asikiwkiyatotaw", "Kisikawasan", "Danis", "Mahikan", "Kahpayekoot", "Mistahi-Maskwa", "Kaseweetin", "Mistawasis", "Keasik"
         ]
     },
     {
@@ -272,6 +358,33 @@
             "Ennis","Roscommon","Cavan","Waterford","Nenagh","Sligo","Monaghan","Naas","Navan","Dundalk",
             "Carrick-on-Shannon","Wicklow","Tullamore","Mullingar","Portlaoighise","Swords","Bray","Carlow","Armagh","Ballinna",
             "Letterkenny","Athlone","Celbridge"
+        ]
+    },
+    {
+        "name": "Inuit",
+        "leaderName": "Ekeuhnick",
+        "adjective": ["Inuit"],
+        "startBias": ["Snow"],
+        "startIntroPart1": "Now, we look to you once more, Ekeuhnick. Our futures are fraught with peril, but your wisdom is unmatched. Will you lead us to new heights in a new land? Can you avoid the disasters of war, of starvation, of poverty? Can you mold and build an empire from within your lands that will stand the test of time?",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "We will not be forgotten. You cannot find and stop us all.",
+        "introduction": "Come, let us trade! It is good to know many people, to barter with them all.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [245,245,245],
+        "innerColor": [219,233,255],
+        "uniqueName": "Until the ice breaks",
+        "uniques": [
+		"[+1 Production] from every [Fish] <in tiles adjacent to [Tundra] tiles>","[+1 Production] from every [Fish] <in tiles adjacent to [Snow] tiles>","[+1 Food] from every [Tundra]","[+1 Food] from every [Snow]","[+4 Happiness] [in capital] <upon discovering [Sailing] technology>"
+        ],
+        "cities": [
+            "Ivvavik", "Iqaluit", "Inuvik", "Kangiqtiniq", "Auyuittuq", "Sirmilik", "Ukkusiksalik", "Qamani'tuaq", "Niaqunnguut", "Mitimatilik", "Kingait", "Qurluqtuq", "Qausuittuq", "Akviligjuaq", "Tuninuq", "Kangirliniq", "Qikiqtarjuaq", "Salliq", "Sanikiluaq", "Kugaaruk", "Mid Baffin", "Pangnirtung", "Ipiarjuk", "Ikaluktutiak", "Igloolik", "Uqsuqtuuq", "Taloyoak", "Kangiqtiniq", "Sanirajak", "Igluligaarjuk"
+        ],
+        "spyNames": [
+            "Apanuugak", "Issitoq", "Ka-ha-si", "Taktuq", "Atanarjuat", "Eben", "Kunikpaa", "Aguta", "Tiguaq", "Tuuluuquaq"
         ]
     },
     {
@@ -330,6 +443,34 @@
         ]
     },
     {
+        "name": "Mapuche",
+        "leaderName": "Lautaro",
+        "adjective": ["Mapuche"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Oh great Toqui, your people still fight for their right to their lands. Will you lead them to victory? Will you build a civilization that shall stand the test of time?",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "My people have been robbed from their lands! Know that the Mapuche shall prevail, and our Ngen shall defeat you!",
+        "introduction": "These are the lands of the Mapuche, my people. And you're being an intruder, but that may change... hopefully.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [70, 112, 229],
+        "innerColor": [224, 255, 255],
+        "uniqueName": "Legacy of Arauco",
+        "uniques": [
+                    "[+50]% XP gained from combat <for [All] units>","[+50]% XP gained from combat <for [All] units> <when fighting in [Chemamull] tiles>","[+10]% Strength <for [Military] units> <when fighting in [Chemamull] tiles>"
+		],
+        "cities": [
+            "Ngulu Mapu", "Puel Mapu", "Pikun Mapu", "Nag Mapu", "Willi Mapu", "Pewen Mapu", "Wente Mapu", "Huilli Mapu", "Lafken Mapu", "Ina Pire Mapu", "Mamüll Mapu", "Rangkül Mapu", "Chadi Mapu", "Pehuen Mapu", "Puel Willi Mapu", "Bafkeh Mapu", "Peñi Mapu", "Boroa Mapu", "Lelfün Mapu", "Kallfü Mapu", "Chol Chol Mapu", "Makewe Mapu", "Forowe Mapu", "Warria Mapu", "Tehuel Mapu", "Kunko Mapu", "Molu Mapu", "Rañi Mapu", "Xuf Xuf Mapu", "Fudi Mapu"
+        ],
+        "spyNames": [
+            "Amaru", "Achiq", "Anta", "Akllaasisa", "Asto", "Ch’ayna", "Hakan", "Huch’uykilla", "Inti", "Illari", "Kunak", "Izhi", "Manko", "Karwasisa", "Raymi", "Qhawa", "Sumaq", "Quri", "Urqu", "Yachay"
+        ]
+    },
+    {
         "name": "Poland",
         "leaderName": "Caismir III",
         "adjective": ["Polish"],
@@ -353,6 +494,38 @@
             "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
             "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
             "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
+        ]
+    },
+    {
+        "name": "Portugal",
+        "leaderName": "Maria I",
+        "adjective": ["Portuguese"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
+        "startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
+        "attacked": "You cannot be serious!",
+        "defeated": "I know little about this conflict...I'll have to consult my regent...",
+        "introduction": "I am Maria, Queen of Portugal! Have we met before? You look familiar to me... Or maybe not.",
+        "neutralHello": "Good morning.",
+        "hateHello": "Why did you come?",
+        "tradeRequest": "Will you consider this offer?",
+        "outerColor": [206,206,205],
+        "innerColor": [8,25,115],
+        "uniqueName": "Mare Clausum",
+        "uniques": [
+            "[+3 Gold] from every [Luxury resource]",
+            "[+33]% Production when constructing [Caravan] units [in all cities]",
+            "[+33]% Production when constructing [Cargo Ship] units [in all cities]"
+        ],
+        "cities": [
+            "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
+            "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
+            "Maputo","Tavira","Figueira da Foz","Viana do Castelo","Sao Tome and Principe","Silves","Sintra","Dili","Lamego",
+            "Ponta Delgada"
+        ],
+        "spyNames": [
+            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
         ]
     },
     {
@@ -402,8 +575,8 @@
         "innerColor": [255,102,102],
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "Gain [200] [Gold] (modified by game speed) <upon discovering a Natural Wonder>",
-            "[+2 Happiness] for every known Natural Wonder",
+            "Gain [500] [Gold] (modified by game speed) <upon discovering a Natural Wonder>",
+            "[+1 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]"
         ],
         "cities": [
@@ -414,32 +587,62 @@
         ]
     },
     {
-        "name": "Tonga",
-        "leaderName": "'Aho'eitu",
-        "adjective": ["Tonga"],
-        "startBias": ["Coast"],
-        "startIntroPart1": " ",
+        "name": "Tiwanaku",
+        "leaderName": "Huyustus",
+        "adjective": ["Tiwanaku"],
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Scientific",
+        "startIntroPart1": "Huyustus, legends tell of how you led the people of Tiwanaku to the stars, will you help them show your brightness to the world once more? Will you build a civilization that will stand the test of time?",
         "startIntroPart2": " ",
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
+        "defeated": "At least now, we will join our ancestors.",
+        "introduction": "Welcome, fair traveler. We're the people of Tiwanaku, join us while we wait to join the stars.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-        "outerColor": [167,2,71],
-        "innerColor": [218,218,218],
-        "uniqueName": "The Friendly Islands",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [0, 0, 158],
+        "innerColor": [210, 180, 140],
+        "uniqueName": "Chakana Theocracy",
         "uniques": [
-                  "[+1 Culture, +1 Happiness] [in all coastal cities]"
+		"Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns. <in cities following our religion>",
+		"Provides a [Shrine] in your first [4] cities for free <upon discovering [Pottery] technology>"
         ],
         "cities": [
-            "Mu'a","Nuku'alofa","Neiafu","Haveluoto","Vaini","Pangai","Ohonua","Agaha","Kolonga","Hihifo",
-            "Tafahi","Petani","Holonga","Apia","Ata","Falevai","Falaleu","Malapo","Nomuka","Fonoifua",
-            "Matuku","O'ua","Tungua","Vaipoa","Ovaka","Salega","Talau","Popua","Kotu","Tofua",
-            "Kao","Lotofoa","Lofanga","Uiha","Fakahiku","Alofi","Ha'afeva"
+            "Tiwanaku", "Pariti", "Lukurmata", "Wankane", "Pokotia", "Pajchiri", "Ojjo", "Omo", "Atacama", "Pampa Koani", "Machaca", "Pucará", "Wiracochapampa", "Wilcawaín", "Cajamarquilla", "Pachacámac", "Wariwillca", "Piquillacta", "Ichabamba", "Hongo Pampa", "Huilcahuaín", "Chimu Cápac", "Socos", "Maymi", "Atarco", "Azángaro", "Qonchopata", "Jargampata", "Jincamoqo"
+        ],
+        "spyNames": [
+            "Chachapuma", "Pumakatari", "Puquina", "Akachachi", "Willka", "Chakan", "Cheratari", "Akapuma", "Amauchapa", "Pachapuma"
         ]
-    },  
+    },
+    {
+        "name": "Tupi",
+        "leaderName": "Cunhambebe",
+        "adjective": ["Tupi"],
+        "startBias": ["Jungle"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "Oh Great Chief of the Tamoyo, your people still wander the Amazon, still remembering your bravery and cunning in diplomacy. Will you once again lead them together? Will you build a Civilization that can stand the test of time?",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "Not even with our confederation, did we manage to defeat you...",
+        "introduction": "Welcome stranger! Come and join us at our celebrations in the Maloca",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [0,178,0],
+        "innerColor": [75,0,130],
+        "uniqueName": "The Tamoyo confederation",
+        "uniques": [
+		"Gain [15] Influence with a [Land] gift to a City-State","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+        ],
+        "cities": [
+            "Yperoig", "Tupinambá", "Caebé", "Jericoá", "Yanomani", "Iguatemi", "Kokama", "Potiguara", "Tamoio", "Tembé", "Tupiniquim", "Urubu Kaapor", "Temimino", "Tupina", "Tabajara", "Karirí", "Waitacá", "Aymoré", "Goytacaz", "Tartagal", "Aguaray", "Pichanal", "Urundel", "Caimancito", "Chalicán", "Arrayanal", "Vinalito", "Glew", "Montegrande"
+        ],
+        "spyNames": [
+            "Angá", "Tupa", "Paraguazú", "Araribóia", "Uaica", "Louis Henry", "Guedes", "Nisio", "Pombero", "Tupiuazú"
+        ]
+    },
    {
         "name": "German Reich",
         "leaderName": "Germania",
@@ -496,5 +699,5 @@
 		"Glacier's Edge","Crystalstadt","Tundraville","Polar Peak","Penguin's Perch","Frostbite Falls","Snowhaven","Polar Dominion",
 		"Avalanche Heights","Icebergton","Polarisburg","Icefallia","Blizzard Bay","Arheimar","Snowpeak City","Freezeport","Chillchester","Icecap City",
 		"Arctic Haven","Beakborough","Icicle Falls","Penguinopolis","Glacier Grove","Penguinstadt"]
-    } 
+    }
 ]

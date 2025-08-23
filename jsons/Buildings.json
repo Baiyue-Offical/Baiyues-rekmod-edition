@@ -52,6 +52,51 @@
         "requiredTech": "Banking"
     }, */
     {
+        "name": "Feitoria",
+        "uniqueTo": "Portugal",
+        "replaces": "Harbor",
+        "cost": 100,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Connects trade routes over water",
+            "Must be next to [Coast]",
+            "[+1 Gold] from [Coast] tiles [in this city]",
+            "New [Water] units start with [15] Experience [in this city]"
+        ],
+        "requiredTech": "Compass"
+    },
+    {
+        "name": "Breeding Camp",
+        "uniqueTo": "Breedland",
+        "replaces": "Aqueduct",
+        "maintenance": 1,
+        "hurryCostModifier": 0,
+        "uniques": ["[70]% Food is carried over after population increases [in this city]","[-1 Happiness] [in this city]"],
+        "requiredTech": "Engineering"
+    },
+    {
+        "name": "Eternal Flame",
+        "replaces": "Shrine",
+        "uniqueTo": "Cherokee",
+        "faith": 1,
+        "culture": 1,
+        "cost": 40,
+        "maintenance": 0,
+        "requiredTech": "Pottery",
+        "uniques": ["Only available <when religion is enabled>"]
+    },
+    {
+        "name": "Eternal Flame Ability",
+        "uniqueTo": "Cherokee",
+        "cost": 0,
+        "maintenance": 0,
+        "isNationalWonder": true,
+        "requiredTech": "Pottery",
+        "uniques": ["Only available <when religion is enabled>","Destroyed when the city is captured",
+		"Can only be built <if [Eternal Flame] is constructed>","Automatically built in all cities where it is buildable",
+		"Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
         "name": "Antarctic Research Station",
         "replaces": "Observatory",
         "uniqueTo": "Antarctica",
@@ -291,7 +336,7 @@
         "faith": 2,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     }, */
     {
@@ -299,7 +344,7 @@
         "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -309,7 +354,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -319,7 +364,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -330,7 +375,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -341,7 +386,7 @@
         "percentStatBonus": {"production": 15},
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -351,7 +396,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -359,7 +404,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
 
@@ -638,7 +683,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Sauna",
@@ -651,7 +696,7 @@
         "uniques": [
             "All newly-trained [relevant] units [in this city] receive the [Sauna] promotion",
             "[+2 Culture] from [Lakes] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -663,7 +708,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Temple of Artemis",
@@ -1726,7 +1771,7 @@
         "uniques": [
             "Gain a free [Temple] [in this city]",
             "Free [Great Prophet] appears",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
@@ -1740,7 +1785,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built [in holy cities]"
         ],
         "requiredTech": "Theology",
@@ -1756,7 +1801,7 @@
         "uniques": [
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "isNationalWonder": true
@@ -1772,7 +1817,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built [in holy cities]",
             "Gain a free [Cathedral] [in this city]",
             "Free [Great Prophet] appears"
@@ -1789,7 +1834,7 @@
             "Gain a free [Garden] [in this city]",
             "[3] free [Missionary] units appear",
             "Can only be built [in holy cities]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky' - Gautama Buddha"

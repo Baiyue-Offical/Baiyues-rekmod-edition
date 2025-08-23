@@ -1,5 +1,146 @@
 [
     // Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+   //             "Only available <if [mod] is enabled>",extra exp and strength when fighting on chemuall, use civ6 chem
+    {
+        "name": "Toqui",
+        "unitType": "Civilian",
+        "uniqueTo": "Mapuche",
+        "replaces": "Great General",
+        "uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+	    "[-25]% Strength for enemy [Military] units in adjacent [Land] tiles",
+	/*    "Adjacent enemy units ending their turn take [20] damage", */
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
+            "Great Person - [War]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Uybabaete",
+        "uniqueTo": "Tupi",
+        "replaces": "Composite Bowman",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 7,
+        "rangedStrength": 11,
+        "cost": 75,
+        "requiredTech": "Construction",
+        "promotions": ["Indirect Fire"],
+        "uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+        "obsoleteTech": "Machinery",
+        "upgradesTo": "Crossbowman",
+        "attackSound": "arrow"
+    },
+    {
+        "name": "Baiyuian Swordsman",
+        "uniqueTo": "Baiyue",
+        "replaces": "Swordsman",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 14,
+        "cost": 80,
+        "requiredTech": "Iron Working",
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "hurryCostModifier": 20,
+        "promotions": ["Mystic Blade"],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Sisqeno",
+        "replaces": "Missionary",
+        "uniqueTo": "Tiwanaku",
+        "unitType": "Civilian",
+        "cost": 100,
+        "uniques": [
+	    "Can instantly construct a [Chatallata] improvement <by consuming this unit>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+            "Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
+            "[-1] Sight",
+            "Unbuildable",
+            "Religious Unit",
+            "Hidden when religion is disabled"
+        ],
+        "movement": 4,
+        "religiousStrength": 1000
+    },
+    {
+        "name": "Rifleman",
+        "replaces": "Rifleman",
+        "uniqueTo": "Breedland",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 38,
+        "cost": 225,
+	"uniques": ["May Paradrop up to [3] tiles from inside friendly territory"],
+        "requiredTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
+        "upgradesTo": "Great War Infantry",
+        "attackSound": "shot"
+    },
+    {
+        "name": "Cacique",
+        "unitType": "Civilian",
+        "uniqueTo": "Arawak",
+        "replaces": "Great General",
+        "uniques": [
+	    "Empire enters a [4]-turn Golden Age <once>",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can be earned through combat <for [Land] units>",
+            "Great Person - [War]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Raven",
+        "replaces": "Spearman",
+        "uniqueTo": "Cherokee",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 11,
+        "cost": 37,
+        "requiredTech": "Bronze Working",
+        "obsoleteTech": "Civil Service",
+        "upgradesTo": "Pikeman",
+        "uniques": ["[+50]% Strength <vs [Mounted] units>","Transfer Movement to [Settler]","[2] Movement <when adjacent to a [Settler] unit>"],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Unaaq",
+        "replaces": "Scout",
+        "uniqueTo": "Inuit",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 4,
+        "rangedStrength": 6,
+        "range": 1,
+        "cost": 20,
+        "obsoleteTech": "Steam Power",
+        "upgradesTo": "Airship",
+        "promotions": ["Ignore terrain cost"],
+	"uniques": ["May create improvements on water resources","Double movement in [Snow]"],
+        "attackSound": "nonmetalhit"
+    },
+    {
+        "name": "Okihtcitaw",
+        "replaces": "Scout",
+        "uniqueTo": "Cree",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 6,
+        "cost": 25,
+        "obsoleteTech": "Steam Power",
+        "upgradesTo": "Airship",
+        "promotions": ["Ignore terrain cost","Survivalism I"],
+        "attackSound": "nonmetalhit"
+    },
     {
         "name": "Diver",
         "unitType": "Melee Water",
@@ -271,6 +412,27 @@
         "promotions": ["Cover I"],
         "attackSound": "crossbow"
     }, */
+    {
+        "name": "Knight of Aviz",
+        "replaces": "Knight",
+        "uniqueTo": "Portugal",
+        "unitType": "Mounted",
+        "movement": 4,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Chivalry",
+        "obsoleteTech": "Military Science",
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+	       
+        ],
+        "promotions": ["Cover I","March"],
+        "attackSound": "horse"
+    },
    {
         "name": "Landeswehr",
         "replaces": "Rifleman",
@@ -970,7 +1132,7 @@
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "promotions": ["Great Generals II"],
+        "promotions": ["Great Generals II","Feared Elephant"],
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -1702,7 +1864,7 @@
         "requiredTech": "Machinery",
         "obsoleteTech": "Chemistry",
         "upgradesTo": "Cannon",
-        "promotions": ["Indirect Fire"],
+        "promotions": ["Indirect Fire","Feared Elephant"],
         "uniques": [
             "[+100]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
@@ -2197,6 +2359,7 @@
             "[+33]% Strength <vs [Mounted] units>",
             "[+1] Sight"
         ],
+        "promotions": ["[Sipahi] ability"],
         "upgradesTo": "Anti-Tank Rifle",
         "obsoleteTech": "Railroads",
         "attackSound": "horse"
@@ -2434,6 +2597,7 @@
             "[-33]% Strength <vs cities> <when attacking>",
             "[+1] Sight"
         ],
+        "promotions": ["[Hussar] ability"],
         "attackSound": "horse"
     },
     {
