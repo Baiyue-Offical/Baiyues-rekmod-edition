@@ -61,7 +61,8 @@
             "Connects trade routes over water",
             "Must be next to [Coast]",
             "[+1 Gold] from [Coast] tiles [in this city]",
-            "New [Water] units start with [15] Experience [in this city]"
+            "New [Water] units start with [15] XP [in this city]",
+	    "[+15]% Production when constructing [Water] units [in this city]"
         ],
         "requiredTech": "Compass"
     },
@@ -124,7 +125,7 @@
             "[+1 Science] per [2] population [in this city]",
             "[+1 Science] per [4] population [in this city]",
             "[+1 Science] from [Forest] tiles [in this city]",
-	    "New [Military] units start with [15] Experience [in this city]"
+	    "New [Military] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Scientific Theory"
     },
@@ -298,16 +299,6 @@
         "uniques": ["Destroyed when the city is captured"]
     },
     {
-        "name": "Courthouse",
-        "maintenance": 4,
-        "hurryCostModifier": 50,
-        "uniques": [
-            "Remove extra unhappiness from annexed cities",
-            "Can only be built [in annexed cities]"
-        ],
-        "requiredTech": "Mathematics"
-    },
-    {
         "name": "Forum",
         "uniqueTo": "Rome",
         "replaces": "Courthouse",
@@ -316,7 +307,7 @@
          "maintenance": 4,
         "hurryCostModifier": 25,
         "uniques": [
-            "Remove extra unhappiness from annexed cities"
+            "Removes extra unhappiness from annexed cities"
         ],
         "requiredTech": "Mathematics"
     },
@@ -814,7 +805,7 @@
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Comment [Has 1 Great Work of Writing Slot]",
-            "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
+            "New [Military] units start with [15] XP [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
     },
@@ -1000,7 +991,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": [
-            "Provides a sum of gold each time you spend a Great Person",
+            "Gain [100] [Gold] <upon expending a [Great Person] unit>",
             "[+2 Gold] from [Marble] tiles [in this city]",
             "[+2 Gold] from [Stone] tiles [in this city]",
             "[+2 Gold] from [Obsidian] tiles [in this city]"
@@ -1013,7 +1004,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -1026,7 +1017,7 @@
         "science": 2,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
@@ -1041,7 +1032,7 @@
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
             "[-25]% Gold cost of acquiring tiles [in this city]",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -1053,7 +1044,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
             "All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
@@ -1193,7 +1184,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
-            "New [Mounted] units start with [15] Experience [in this city]"
+            "New [Mounted] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1230,8 +1221,8 @@
         "maintenance": 4,
         "hurryCostModifier": 50,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
-            "Can only be built [in annexed cities]"
+            "Removes extra unhappiness from annexed cities",
+            "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
     },
@@ -1244,8 +1235,8 @@
         "happiness": 2,
         "hurryCostModifier": 50,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
-            "Can only be built [in annexed cities]"
+            "Removes extra unhappiness from annexed cities",
+            "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
     },
@@ -1638,7 +1629,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] (modified by game speed) <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [20] [Gold] <upon expending a [Great Person] unit>", // should be on expending... give me some time to work on it
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -1786,7 +1777,7 @@
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
             "Only available <when religion is enabled>",
-            "Can only be built [in holy cities]"
+            "Can only be built <in [Holy] cities>"
         ],
         "requiredTech": "Theology",
         "isNationalWonder": true
@@ -1818,7 +1809,7 @@
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
             "Only available <when religion is enabled>",
-            "Can only be built [in holy cities]",
+            "Can only be built <in [Holy] cities>",
             "Gain a free [Cathedral] [in this city]",
             "Free [Great Prophet] appears"
         ],
@@ -1833,7 +1824,7 @@
         "uniques": [
             "Gain a free [Garden] [in this city]",
             "[3] free [Missionary] units appear",
-            "Can only be built [in holy cities]",
+            "Can only be built <in [Holy] cities>",
             "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
@@ -2057,21 +2048,6 @@
         "requiredTech": "Compass"
     },
     {
-        "name": "Feitoria",
-        "uniqueTo": "Portugal",
-        "replaces": "Harbor",
-        "cost": 100,
-        "hurryCostModifier": 25,
-        "uniques": [
-            "Connects trade routes over water",
-            "Must be next to [Coast]",
-            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
-	    "[+15]% Production when constructing [Water] units [in this city]",
-            "New [Water] units start with [15] Experience [in this city]"
-        ],
-        "requiredTech": "Compass"
-    },
-    {
         "name": "University",
         "maintenance": 2,
         "hurryCostModifier": 15,
@@ -2271,7 +2247,7 @@
         "maintenance": 1,
         "requiredBuilding": "Barracks",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Steel"
@@ -2285,7 +2261,7 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "Free [Reislaufer] appears",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
             "Destroyed when the city is captured"
         ],
@@ -2298,7 +2274,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
             "[+1 Culture] from [Jungle] tiles [in this city]",
@@ -3103,7 +3079,7 @@
         "maintenance": 1,
         "requiredBuilding": "Armory",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Military Science"
@@ -3115,7 +3091,7 @@
         "isWonder": true,
         "uniques": [
             "Free [Great General] appears",
-            "New [Military] units start with [15] Experience [in this city]"
+            "New [Military] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Military Science",
         "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
@@ -3511,7 +3487,7 @@
         "uniques": [
             "Enables construction of Spaceship parts",
             "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled",
+            "Only available <when [Scientific] Victory is enabled>",
             "Cannot be hurried"
         ],
         "requiredTech": "Rocketry"
@@ -3563,7 +3539,7 @@
         "requiredTech": "Globalization",
         "uniques": [
             "Triggers voting for the Diplomatic Victory",
-            "Hidden when [Diplomatic] Victory is disabled",
+            "Only available <when [Diplomatic] Victory is enabled>",
             "Triggers a global alert upon completion"
         ],
         "quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
@@ -3578,7 +3554,7 @@
             "Only available <when above [30] [Policies]>",
             "Triggers a global alert upon build start",
             "Triggers a Cultural Victory upon completion",
-            "Hidden when [Cultural] Victory is disabled",
+            "Only available <when [Cultural] Victory is enabled>",
             "Cannot be hurried"
         ]
     }

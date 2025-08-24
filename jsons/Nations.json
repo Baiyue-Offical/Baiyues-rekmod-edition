@@ -227,8 +227,8 @@
         "uniques": [
 		"Allied City-States provide [Science] equal to [+50]% of what they produce for themselves",
 		"Science gained from research agreements [+50]%",
-		"Gain a free [Eternal Flame] [in this city] <upon founding a city> <if [Eternal Flame Ability] is constructed> <hidden from users>",
-		"Gain a free [Eternal Flame] [in this city] <upon conquering a city> <if [Eternal Flame Ability] is constructed> <hidden from users>",
+		"Gain a free [Shrine] [in this city] <upon founding a city> <if [Eternal Flame Ability] is constructed> <hidden from users>",
+		"Gain a free [Shrine] [in this city] <upon conquering a city> <if [Eternal Flame Ability] is constructed> <hidden from users>",
 		"Comment [Free Eternal Flame in all founded and captured cities after constructing one Eternal Flame]"
         ],
         "cities": [
@@ -575,7 +575,7 @@
         "innerColor": [255,102,102],
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "Gain [500] [Gold] (modified by game speed) <upon discovering a Natural Wonder>",
+            "Gain [500] [Gold] <(modified by game speed)> <upon discovering a Natural Wonder>",
             "[+1 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]"
         ],
@@ -605,7 +605,7 @@
         "innerColor": [210, 180, 140],
         "uniqueName": "Chakana Theocracy",
         "uniques": [
-		"Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns. <in cities following our religion>",
+		"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns <in cities following our religion>",
 		"Provides a [Shrine] in your first [4] cities for free <upon discovering [Pottery] technology>"
         ],
         "cities": [
