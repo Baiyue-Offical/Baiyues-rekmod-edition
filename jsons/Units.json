@@ -121,11 +121,11 @@
         "strength": 4,
         "rangedStrength": 6,
         "range": 1,
-        "cost": 20,
+        "cost": 25,
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
         "promotions": ["Ignore terrain cost"],
-	"uniques": ["May create improvements on water resources","Double movement in [Snow]"],
+	"uniques": ["Can build [Fishing Boats] improvements on tiles","Double movement in [Snow]","May upgrade to [Archer] through ruins-like effects"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -135,9 +135,10 @@
         "unitType": "Sword",
         "movement": 2,
         "strength": 6,
-        "cost": 25,
+        "cost": 30,
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
+        "uniques": ["May upgrade to [Archer] through ruins-like effects"],
         "promotions": ["Ignore terrain cost","Survivalism I"],
         "attackSound": "nonmetalhit"
     },

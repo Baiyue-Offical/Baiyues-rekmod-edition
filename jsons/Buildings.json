@@ -196,7 +196,7 @@
         "requiredBuilding": "Granary",
         "requiredTech": "Masonry"
     }, 
-    {
+/*    {
         "name": "Roman Aqueduct",
         "uniqueTo": "Greater Greece",
         "replaces": "Aqueduct",
@@ -215,15 +215,15 @@
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured"]
-    },
+    }, */
     {
         "name": "Acropolis",
         "replaces": "Temple",
         "uniqueTo": "Greater Greece",
 	"cost": 200,
-        "faith": 6,
+        "faith": 4,
         "culture": 4,        
-	"happiness": 4,
+	"happiness": 2,
         "requiredBuilding": "Shrine",
         "maintenance": 2,
         "hurryCostModifier": 25,
@@ -251,7 +251,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"production": 10},
         "requiredTech": "Metal Casting"
-    },
+    }, 
     {
         "name": "Lavra",
         "replaces": "Temple",

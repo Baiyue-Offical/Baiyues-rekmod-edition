@@ -78,7 +78,6 @@
         "uniqueTo": "Arawak",
         "terrainsCanBeBuiltOn": ["Forest","Jungle"],
         "food": 1,
-        "faith": 1,
         "turnsToBuild": 7,
         "techRequired": "Agriculture",
         "uniques": [
