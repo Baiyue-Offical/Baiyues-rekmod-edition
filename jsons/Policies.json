@@ -1,5 +1,5 @@
 [
-    {
+    { // order, freedom, autocracy
         "name": "Tradition",
         "era": "Ancient era",
         "uniques": [
@@ -296,13 +296,11 @@
                 "column": 5
             },
             {
-                "name": "Reformation",
+                "name": "Reformation", // nerfed
                 "uniques": [
                     "[-15]% Culture cost of natural border growth [in all cities]",
                     "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
                     "Gain a free [Enhancer] belief <after founding a religion>",
-                     "May choose [1] additional [Follower] beliefs when [founding] a religion",
-                    "Gain a free [Follower] belief <after founding a religion>",
                     "Provides [1] [Policies]"
                 ],
                 "requires": [
@@ -328,13 +326,9 @@
                 "uniques": [
                     "Free [Great Prophet] appears",
                     "[+1 Food, +3 Culture] from every [Holy site]",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great General] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Artist] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Writer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "Provides a [Garden] in your first [4] cities for free",
+                    "May buy [Piety Complete Building] buildings for [1500] [Faith] [in capital] <(modified by game speed)> <hidden from users> <starting from the [Industrial era]>",
+                    "Comment [May buy [{non-[Great Scientist]} {Great Person}] units for [1500] [Faith] [in capital] [(modified by game speed)] [once] [starting from the [Industrial era]]]"
                 ]
             }
         ]
@@ -675,9 +669,8 @@
         ],
         "policies": [
             {
-                "name": "Sovereignty",
+                "name": "Sovereignty", // nerfed
                 "uniques": [
-                    "[+1 Happiness] from every [Library]",
                     "[+1 Happiness] from every [University]",
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Research Lab]",
@@ -736,9 +729,9 @@
                 "column": 3
             },
             {
-                "name": "Rationalism Complete",
+                "name": "Rationalism Complete", // nerfed
                 "uniques": [
-                    "[15]% [Science] <while the empire is happy>"
+                    "[10]% [Science] <while the empire is happy>"
                 ]
             }
         ]
