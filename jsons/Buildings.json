@@ -52,6 +52,19 @@
         "requiredTech": "Banking"
     }, */
     {
+        "name": "British Academy",
+        "uniqueTo": "United Kingdom",
+        "replaces": "University",
+        "maintenance": 2,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"science": 33},
+        "specialistSlots": {"Scientist": 2},
+        "requiredBuilding": "Library",
+        "uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+3 Science] <when number of [Cities] is between [3] and [5]>"
+		   ,"[+6 Science] <when number of [Cities] is between [6] and [8]>","[+9 Science] <when number of [Cities] is more than [9]>"],
+        "requiredTech": "Education"
+    },
+    {
         "name": "Feitoria",
         "uniqueTo": "Portugal",
         "replaces": "Harbor",

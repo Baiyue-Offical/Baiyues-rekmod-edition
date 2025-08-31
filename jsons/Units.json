@@ -2,6 +2,38 @@
     // Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
  // Baiyue mod unit also include siege ram and javelin aside from those on the top
     {
+        "name": "Line Battleship",
+        "unitType": "Ranged Water",
+        "replaces": "Frigate",
+        "uniqueTo": "United Kingdom",
+        "movement": 5,
+        "strength": 27,
+        "rangedStrength": 32,
+        "cost": 185,
+        "requiredResource": "Iron",
+        "requiredTech": "Navigation",
+        "obsoleteTech": "Electronics",
+        "upgradesTo": "Battleship",
+        "hurryCostModifier": 20,
+        "attackSound": "cannon"
+    },
+    {
+        "name": "Longbowmen",
+        "unitType": "Archery",
+        "replaces": "Crossbowman",
+        "uniqueTo": "United Kingdom",
+        "range": 2,
+        "movement": 2,
+        "strength": 12,
+        "rangedStrength": 18,
+        "cost": 120,
+        "requiredTech": "Machinery",
+        "upgradesTo": "Gatling Gun",
+        "obsoleteTech": "Industrialization",
+        "promotions": ["Extended Range"],
+        "attackSound": "arrow"
+    },
+    {
         "name": "Toqui",
         "unitType": "Civilian",
         "uniqueTo": "Mapuche",
@@ -33,7 +65,7 @@
         "obsoleteTech": "Machinery",
         "upgradesTo": "Crossbowman",
         "attackSound": "arrow"
-    },
+    }, 
     {
         "name": "Baiyuian Swordsman",
         "uniqueTo": "Baiyue",

@@ -508,7 +508,7 @@
             "Comment [Unlocks [Conquistador]]",
             "Provides [1] [Policies]"
         ],
-        "era": "Classical era",
+        "era": "Medieval era",
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -548,7 +548,7 @@
             {
                 "name": "Navigation School",
                 "uniques": [
-                    "[+2 Science] [in all coastal cities]",
+                    "[+3 Science] [in all coastal cities]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
