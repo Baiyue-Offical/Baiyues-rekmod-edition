@@ -287,7 +287,7 @@
         "innerColor": [255,255,255],
         "uniqueName": "Sun Never Sets",
         "uniques": [
-	    "Free Social Policy <after adopting [Exploration]>",
+	    "Free Social Policy <upon adopting [Exploration]>",
             "[+2] Movement <for [Water] units>",
             "[+2] Movement <for [Embarked] units>"
         ],
