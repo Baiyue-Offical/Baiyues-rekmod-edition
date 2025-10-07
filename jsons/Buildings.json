@@ -61,8 +61,23 @@
         "specialistSlots": {"Scientist": 2},
         "requiredBuilding": "Library",
         "uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+3 Science] <when number of [Cities] is between [3] and [5]>"
-		   ,"[+6 Science] <when number of [Cities] is between [6] and [8]>","[+9 Science] <when number of [Cities] is more than [9]>"],
+		   ,"[+6 Science] <when number of [Cities] is between [6] and [8]>","[+9 Science] <when number of [Cities] is more than [8]>"],
         "requiredTech": "Education"
+    },
+    {
+        "name": "Royal Navy Dockyard",
+        "uniqueTo": "United Kingdom",
+        "replaces": "Harbor",
+        "cost": 120,
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Connects trade routes over water",
+            "Must be next to [Coast]",
+            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
+	    "[+20]% [Gold] <on foreign continents>","[+1 Happiness] <on foreign continents>"
+        ],
+        "requiredTech": "Compass"
     },
     {
         "name": "Feitoria",
@@ -3066,7 +3081,7 @@
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
         "uniques": [
-            "[Gold] cost of purchasing items in cities [-12]%",
+            "[Gold] cost of purchasing items in cities [-15]%",
             "Only available <after adopting [Commerce]>"
         ],
         "requiredTech": "Industrialization",

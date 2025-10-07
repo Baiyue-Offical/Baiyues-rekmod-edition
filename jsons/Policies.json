@@ -626,10 +626,10 @@
                     "[+25]% Yield from every [Land Trade Route (Production)]",
                     "[+25]% Yield from every [Sea Trade Route (Food)]",
                     "[+25]% Yield from every [Sea Trade Route (Production)]",*/
-                    "[Gold] cost of purchasing items in cities [-20]%",
-                    "[+2 Science] from every [Market]",
-                    "[+2 Science] from every [Bank]",
-                    "[+2 Science] from every [Stock Exchange]",
+                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "[+1 Science] from every [Market]",
+                    "[+1 Science] from every [Bank]",
+                    "[+1 Science] from every [Stock Exchange]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Silk Road"],
@@ -731,7 +731,7 @@
             {
                 "name": "Rationalism Complete", // nerfed
                 "uniques": [
-                    "[10]% [Science] <while the empire is happy>"
+                    "[15]% [Science] <while the empire is happy>"
                 ]
             }
         ]
