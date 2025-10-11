@@ -1,5 +1,33 @@
 [
- /*   {
+// Leader plus
+{
+  "name": "Finest Hour (Winston Churchill)",
+  "uniqueTo": "United Kingdom",
+  "cost": 1,
+  "replacementTextForUniques": "[+25]% production when constructing air and water units, this doubles when you are at war, air and water units don't take damage penalty when wounded",
+  "uniques": ["Unsellable","[+25]% Production when constructing [Air] units [in all cities]","[+25]% Production when constructing [Water] units [in all cities]",
+	"[+25]% Production when constructing [Air] units [in all cities] <when at war>","[+25]% Production when constructing [Air] units [in all cities] <when at war>",
+	"No damage penalty for wounded units <for [Water] units>","No damage penalty for wounded units <for [Air] units>",
+   	"Destroyed when the city is captured","Unbuildable","Cannot be purchased","Only available <if [Leaders Plus] is enabled>"],
+  },
+    {
+        "name": "Stina",
+        "replaces": "Granary",
+        "uniqueTo": "Cucuteni",
+        "food": 3,
+	"faith": 1,
+        "maintenance": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Food] from [Deer] tiles [in this city]",
+            "[+1 Food] from [Bison] tiles [in this city]",
+            "[+1 Food] from [Bananas] tiles [in this city]",
+            "[+1 Food] from [Wheat] tiles [in this city]",
+            "[+1 Food] from [Maize] tiles [in this city]"
+        ],
+        "requiredTech": "Pottery"
+    },
+/*    {
         "name": "Cheese maker",
         "replaces": "Windmill",
         "uniqueTo": "Greater Germany",

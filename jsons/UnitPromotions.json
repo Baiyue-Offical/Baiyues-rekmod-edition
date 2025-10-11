@@ -98,5 +98,28 @@
         ],
         "prerequisites": ["Mystic Blade"],
         "unitTypes": ["Sword","Gunpowder"]
-    }
+    },
+    {
+        "name": "Bombardment I",
+        "uniques": [
+            "[+33]% Strength <vs [Land] units>"
+        ],
+        "unitTypes": ["Ranged Water","Fighter","Bomber"]
+    },
+    {
+        "name": "Bombardment II",
+        "prerequisites": ["Bombardment I"],
+        "uniques": [
+            "[+33]% Strength <vs [Land] units>"
+        ],
+        "unitTypes": ["Ranged Water","Fighter","Bomber"]
+    },
+    {
+        "name": "Bombardment III",
+        "prerequisites": ["Bombardment II"],
+        "uniques": [
+            "[+34]% Strength <vs [Land] units>"
+        ],
+        "unitTypes": ["Ranged Water","Fighter","Bomber"]
+    },
 ]

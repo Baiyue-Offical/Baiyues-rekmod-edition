@@ -269,6 +269,31 @@
         ]
     },
     {
+        "name": "Cucuteni",
+        "leaderName": "Venera",
+        "adjective": ["Cucuteni"],
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "We humbly greet you Great Goddess Venera! May you and your followers forever be blessed! You guide the Trypillians, a people older than civilization itself. First emerging around 5500BC, the Trypillians were a distinctive group of farming communities that once plowed the great grasslands of Ukraine and Romania. Over the course of thousands of years the Trypillians founded the most advanced and complex culture of its time. Scattered across hundreds of cities, they produce some of the world's finest pottery and constructed monumental temples, reaching a height of technological sophistication and population density that would not be seen in again by the world until the rise of sumer hundreds of years later!",
+        "startIntroPart2": "We humbly greet you Great Goddess Venera! May you and your followers forever be blessed! You guide the Trypillians, a people older than civilization itself. First emerging around 5500BC, the Trypillians were a distinctive group of farming communities that once plowed the great grasslands of Ukraine and Romania. Over the course of thousands of years the Trypillians founded the most advanced and complex culture of its time. Scattered across hundreds of cities, they produce some of the world's finest pottery and constructed monumental temples, reaching a height of technological sophistication and population density that would not be seen in again by the world until the rise of sumer hundreds of years later!",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours...",
+        "introduction": "Greetings.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We have a proposal for you.",
+        "outerColor": [235,195,0],
+        "innerColor": [175,75,0],
+        "uniqueName": "Burned House Horizon",
+        "uniques": [
+		"[+1 Production] per every [2] [Faith]","[10]% Food is carried over after population increases [in all cities] <in cities with a [Shrine]>","[+1 Production] from all [Faith] buildings"
+        ],
+        "cities": [
+       		"Talianki","Dobrovody","Maidanetske","Nebelivka","Trypillia","Myropillya","Tomashovka","Maydanets","Chychyrkozivka"
+        ]
+    },
+    {
         "name": "United Kingdom",
         "leaderName": "Elizabeth",
         "adjective": ["English"],
@@ -289,7 +314,8 @@
         "uniques": [
 	    "Free Social Policy <upon adopting [Exploration]>",
             "[+2] Movement <for [Water] units>",
-            "[+2] Movement <for [Embarked] units>"
+            "[+2] Movement <for [Embarked] units>",
+	    "Gain a free [Finest Hour (Winston Churchill)] [in capital] <if [Leaders Plus] is enabled> <hidden from users>"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
