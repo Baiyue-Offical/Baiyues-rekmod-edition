@@ -287,7 +287,9 @@
         "innerColor": [175,75,0],
         "uniqueName": "Burned House Horizon",
         "uniques": [
-		"[+1 Production] per every [2] [Faith]","[10]% Food is carried over after population increases [in all cities] <in cities with a [Shrine]>","[+1 Production] from all [Faith] buildings"
+		"May buy [Settler] units with [Faith] for [1] times their normal Production cost",
+		"[10]% Food is carried over after population increases [in all cities] <in cities with a [Shrine]>",
+		"[+1 Faith] [in all cities connected to capital]"
         ],
         "cities": [
        		"Talianki","Dobrovody","Maidanetske","Nebelivka","Trypillia","Myropillya","Tomashovka","Maydanets","Chychyrkozivka"
@@ -314,8 +316,8 @@
         "uniques": [
 	    "Free Social Policy <upon adopting [Exploration]>",
             "[+2] Movement <for [Water] units>",
-            "[+2] Movement <for [Embarked] units>",
-	    "Gain a free [Finest Hour (Winston Churchill)] [in capital] <if [Leaders Plus] is enabled> <hidden from users>"
+            "[+2] Movement <for [Embarked] units>"
+	    /* ,"Gain a free [Finest Hour (Winston Churchill)] [in capital] <if [Leaders Plus] is enabled> <hidden from users>" */
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -375,7 +377,7 @@
         "innerColor": [0,0,139],
         "uniqueName": "Nîhithaw",
         "uniques": [
-            "Free [Caravan] appears <upon discovering [Pottery] technology>","Provides [1] [Trade Route] <upon discovering [Pottery] technology>",
+            "Free [Caravan] appears <upon discovering [Pottery] technology>", "Provides [1] [Trade Route] <after discovering [Pottery]>",
 	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Land Trade Route (Food)] improvement>",
 	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Land Trade Route (Production)] improvement>",
 	    "Gain control over [Plains] tiles in a [2]-tile radius <upon building a [Land Trade Route (Gold)] improvement>",
@@ -437,7 +439,7 @@
         "innerColor": [219,233,255],
         "uniqueName": "Until the ice breaks",
         "uniques": [
-		"[+1 Production] from every [Fish] <in tiles adjacent to [Tundra] tiles>","[+1 Production] from every [Fish] <in tiles adjacent to [Snow] tiles>","[+1 Food] from every [Tundra]","[+1 Food] from every [Snow]","[+4 Happiness] [in capital] <upon discovering [Sailing] technology>"
+		"[+1 Production] from every [Fish] <in tiles adjacent to [Tundra] tiles>","[+1 Production] from every [Fish] <in tiles adjacent to [Snow] tiles>","[+1 Food] from every [Tundra]","[+1 Food] from every [Snow]","[+4 Happiness] [in capital] <after discovering [Sailing]>"
         ],
         "cities": [
             "Ivvavik", "Iqaluit", "Inuvik", "Kangiqtiniq", "Auyuittuq", "Sirmilik", "Ukkusiksalik", "Qamani'tuaq", "Niaqunnguut", "Mitimatilik", "Kingait", "Qurluqtuq", "Qausuittuq", "Akviligjuaq", "Tuninuq", "Kangirliniq", "Qikiqtarjuaq", "Salliq", "Sanikiluaq", "Kugaaruk", "Mid Baffin", "Pangnirtung", "Ipiarjuk", "Ikaluktutiak", "Igloolik", "Uqsuqtuuq", "Taloyoak", "Kangiqtiniq", "Sanirajak", "Igluligaarjuk"

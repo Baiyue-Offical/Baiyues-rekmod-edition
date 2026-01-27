@@ -6,11 +6,10 @@
         "replaces": "Worker",
         "uniqueTo": "Cucuteni",
         "unitType": "Civilian",
-        "movement": 2,
+        "movement": 4,
         "uniques": [
             "Can build [All] improvements on tiles",
             "Can build [Land] improvements on tiles",
-	    "Gain [6] [Faith] <upon building a [Land] improvement> <(modified by game speed)>",
             "Automation is a primary action"
         ],
         "cost": 48
@@ -122,7 +121,7 @@
         "movement": 2,
         "strength": 38,
         "cost": 225,
-	"uniques": ["May Paradrop up to [3] tiles from inside friendly territory"],
+	"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away"],
         "requiredTech": "Rifling",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Great War Infantry",

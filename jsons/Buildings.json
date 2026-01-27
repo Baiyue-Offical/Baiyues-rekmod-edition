@@ -1,6 +1,6 @@
 [
 // Leader plus
-{
+/* {
   "name": "Finest Hour (Winston Churchill)",
   "uniqueTo": "United Kingdom",
   "cost": 1,
@@ -9,7 +9,7 @@
 	"[+25]% Production when constructing [Air] units [in all cities] <when at war>","[+25]% Production when constructing [Air] units [in all cities] <when at war>",
 	"No damage penalty for wounded units <for [Water] units>","No damage penalty for wounded units <for [Air] units>",
    	"Destroyed when the city is captured","Unbuildable","Cannot be purchased","Only available <if [Leaders Plus] is enabled>"],
-  },
+  }, */
     {
         "name": "Stina",
         "replaces": "Granary",
