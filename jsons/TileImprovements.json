@@ -60,7 +60,7 @@
         "turnsToBuild": 7,
         "techRequired": "Construction",
         "uniques": [
-	    "Unbuildable",
+	    "Unbuildable <for [Worker] units>",
             "Pillaging this improvement yields approximately [+18 Gold]",
 	    "[+1 Science, +1 Faith] <after discovering [Astronomy]>",
             "Must be next to [City center]",
